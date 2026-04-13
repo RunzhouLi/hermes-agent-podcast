@@ -1,34 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Hermes Agent 架构拆解</title>
     <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <description>面向开发者，深入浅出拆解 Hermes Agent 的架构与设计原理。</description>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/feed.xml" rel="self" type="application/rss+xml" />
-    <itunes:author>Hermes + Li</itunes:author>
+
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Li</itunes:author>
+    <itunes:summary>给开发者的 Hermes Agent 技术播客，围绕官方文档拆解架构、工具系统、记忆机制、调度与工程设计原则。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/cover.jpg" />
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Li</itunes:name>
+      <itunes:email>podcast@runzhouli.dev</itunes:email>
+    </itunes:owner>
 
     <item>
       <title>第1集：大脑是怎么转起来的</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
       <description>讲解 AIAgent 主循环、Prompt 冻结快照、Provider 调度与核心设计取舍。</description>
-      <pubDate>Mon, 13 Apr 2026 08:30:00 GMT</pubDate>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>从入口层到 AIAgent 主循环，拆解 Hermes 如何把 Prompt、模型与工具执行编排成统一闭环。</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 00:30:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep1</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep1.mp3" length="2105856" type="audio/mpeg" />
     </item>
 
     <item>
       <title>第2集：工具系统、执行后端与 MCP 扩展</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
       <description>讲解 registry、自注册发现、六种终端后端、MCP 动态工具生态与审批安全闸门。</description>
-      <pubDate>Mon, 13 Apr 2026 08:35:00 GMT</pubDate>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>深入工具运行时：工具注册中心、执行后端抽象、MCP 扩展路径与高风险操作防护。</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 00:35:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep2</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep2.mp3" length="2317536" type="audio/mpeg" />
     </item>
 
     <item>
       <title>第3集：Skills、Memory、Cron 与多平台 Gateway</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
       <description>讲解 Skills 分层加载、长期记忆策略、agent-native Cron 与多平台 Gateway 运行模型。</description>
-      <pubDate>Mon, 13 Apr 2026 08:40:00 GMT</pubDate>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>讨论 Hermes 的长期演进能力：技能系统、记忆管理、定时任务与多平台消息网关。</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 00:40:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep3</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep3.mp3" length="2140992" type="audio/mpeg" />
     </item>
