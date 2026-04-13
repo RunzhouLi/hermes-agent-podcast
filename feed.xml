@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>面向开发者，深入浅出拆解 Hermes Agent 与 OpenClaw 的架构与工程实践。</description>
-    <lastBuildDate>Mon, 13 Apr 2026 08:43:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 13:30:38 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -100,6 +100,42 @@
       <pubDate>Mon, 13 Apr 2026 09:20:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-vs-openclaw-ep6</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep6.mp3" length="34397996" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>第7集：开发者视角下的独特优势</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+      <description>从实现机制出发比较 Hermes 与 OpenClaw 的独特强项，解释优势成因与适配边界。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>面向开发者对齐选型认知：Hermes 的执行闭环优势 vs OpenClaw 的控制平面优势。</itunes:summary>
+      <itunes:duration>00:16:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 13:40:00 GMT</pubDate>
+      <guid isPermaLink="false">hermes-vs-openclaw-ep7</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep7.mp3" length="8153900" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>第8集：弱场景与失效模式</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+      <description>系统化拆解两条路线的弱场景、失效信号与实现层根因，给出可执行预防动作。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>从工程故障视角对比：Hermes 的边界过载风险与 OpenClaw 的治理滞后风险。</itunes:summary>
+      <itunes:duration>00:15:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 13:50:00 GMT</pubDate>
+      <guid isPermaLink="false">hermes-vs-openclaw-ep8</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep8.mp3" length="7329836" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>第9集：迁移决策与落地清单</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+      <description>将比较结论转化为分阶段决策框架、发布门禁与迁移验收阈值，给出六周执行计划。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>收官集：从认知到行动，帮助开发团队在真实约束下做低风险迁移与双轨收敛。</itunes:summary>
+      <itunes:duration>00:16:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 14:00:00 GMT</pubDate>
+      <guid isPermaLink="false">hermes-vs-openclaw-ep9</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep9.mp3" length="7809644" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
