@@ -14,7 +14,7 @@
       <description>讲解 AIAgent 主循环、Prompt 冻结快照、Provider 调度与核心设计取舍。</description>
       <pubDate>Mon, 13 Apr 2026 08:30:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep1</guid>
-      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep1.mp3" length="1558700" type="audio/mpeg" />
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep1.mp3" length="2105856" type="audio/mpeg" />
     </item>
 
     <item>
@@ -22,7 +22,7 @@
       <description>讲解 registry、自注册发现、六种终端后端、MCP 动态工具生态与审批安全闸门。</description>
       <pubDate>Mon, 13 Apr 2026 08:35:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep2</guid>
-      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep2.mp3" length="2090540" type="audio/mpeg" />
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep2.mp3" length="2317536" type="audio/mpeg" />
     </item>
 
     <item>
@@ -30,7 +30,7 @@
       <description>讲解 Skills 分层加载、长期记忆策略、agent-native Cron 与多平台 Gateway 运行模型。</description>
       <pubDate>Mon, 13 Apr 2026 08:40:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep3</guid>
-      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep3.mp3" length="1396652" type="audio/mpeg" />
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep3.mp3" length="2140992" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
