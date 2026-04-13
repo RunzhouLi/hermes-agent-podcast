@@ -7,8 +7,8 @@
     <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
-    <description>面向开发者，深入浅出拆解 Hermes Agent 的架构与设计原理。</description>
-    <lastBuildDate>Mon, 13 Apr 2026 07:00:19 +0000</lastBuildDate>
+    <description>面向开发者，深入浅出拆解 Hermes Agent 与 OpenClaw 的架构与工程实践。</description>
+    <lastBuildDate>Mon, 13 Apr 2026 08:43:05 +0000</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -20,7 +20,7 @@
 
     <itunes:type>episodic</itunes:type>
     <itunes:author>Li</itunes:author>
-    <itunes:summary>给开发者的 Hermes Agent 技术播客，围绕官方文档拆解架构、工具系统、记忆机制、调度与工程设计原则。</itunes:summary>
+    <itunes:summary>给开发者的技术播客，深入拆解 Hermes Agent 与 OpenClaw 的产品路线、运行时与工程落地。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/cover.jpg" />
     <itunes:category text="Technology"/>
@@ -64,6 +64,42 @@
       <pubDate>Mon, 13 Apr 2026 00:40:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep3</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep3.mp3" length="2140992" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>第4集：路线分岔与系统边界</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+      <description>比较 Hermes 与 OpenClaw 在系统边界、核心中心点、渠道策略与配置模型上的路线差异。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>从架构约束出发，拆解两条路线为何都成立，以及如何做分阶段采用。</itunes:summary>
+      <itunes:duration>00:41:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 09:00:00 GMT</pubDate>
+      <guid isPermaLink="false">hermes-vs-openclaw-ep4</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep4.mp3" length="39908396" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>第5集：运行时与扩展机制深拆</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+      <description>比较运行时循环、工具分发、插件模型、MCP 集成、会话与记忆策略。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>面向开发者的机制级对比，强调可观测、可中断、可治理与扩展速度之间的权衡。</itunes:summary>
+      <itunes:duration>00:40:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 09:10:00 GMT</pubDate>
+      <guid isPermaLink="false">hermes-vs-openclaw-ep5</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep5.mp3" length="39143468" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>第6集：工程落地与迁移策略</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+      <description>比较运维、安全、成本、协作模型与迁移路径，给出可执行迁移框架。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>从上线与治理角度分析如何在真实团队中落地并完成低风险迁移。</itunes:summary>
+      <itunes:duration>00:35:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 13 Apr 2026 09:20:00 GMT</pubDate>
+      <guid isPermaLink="false">hermes-vs-openclaw-ep6</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep6.mp3" length="34397996" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
