@@ -6,17 +6,24 @@
     <title>Hermes Agent 架构拆解</title>
     <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
     <language>zh-CN</language>
+    <copyright>© 2026 Li</copyright>
     <description>面向开发者，深入浅出拆解 Hermes Agent 的架构与设计原理。</description>
+    <lastBuildDate>Mon, 13 Apr 2026 07:00:19 +0000</lastBuildDate>
+    <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/feed.xml" rel="self" type="application/rss+xml" />
+
+    <image>
+      <url>https://runzhouli.github.io/hermes-agent-podcast/cover.jpg</url>
+      <title>Hermes Agent 架构拆解</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
+    </image>
 
     <itunes:type>episodic</itunes:type>
     <itunes:author>Li</itunes:author>
     <itunes:summary>给开发者的 Hermes Agent 技术播客，围绕官方文档拆解架构、工具系统、记忆机制、调度与工程设计原则。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/cover.jpg" />
-    <itunes:category text="Technology">
-      <itunes:category text="Software How-To"/>
-    </itunes:category>
+    <itunes:category text="Technology"/>
     <itunes:owner>
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
@@ -28,30 +35,31 @@
       <description>讲解 AIAgent 主循环、Prompt 冻结快照、Provider 调度与核心设计取舍。</description>
       <itunes:author>Li</itunes:author>
       <itunes:summary>从入口层到 AIAgent 主循环，拆解 Hermes 如何把 Prompt、模型与工具执行编排成统一闭环。</itunes:summary>
+      <itunes:duration>00:05:51</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Mon, 13 Apr 2026 00:30:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep1</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep1.mp3" length="2105856" type="audio/mpeg" />
     </item>
-
     <item>
       <title>第2集：工具系统、执行后端与 MCP 扩展</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
       <description>讲解 registry、自注册发现、六种终端后端、MCP 动态工具生态与审批安全闸门。</description>
       <itunes:author>Li</itunes:author>
       <itunes:summary>深入工具运行时：工具注册中心、执行后端抽象、MCP 扩展路径与高风险操作防护。</itunes:summary>
+      <itunes:duration>00:06:26</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Mon, 13 Apr 2026 00:35:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep2</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/ep2.mp3" length="2317536" type="audio/mpeg" />
     </item>
-
     <item>
       <title>第3集：Skills、Memory、Cron 与多平台 Gateway</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/</link>
       <description>讲解 Skills 分层加载、长期记忆策略、agent-native Cron 与多平台 Gateway 运行模型。</description>
       <itunes:author>Li</itunes:author>
       <itunes:summary>讨论 Hermes 的长期演进能力：技能系统、记忆管理、定时任务与多平台消息网关。</itunes:summary>
+      <itunes:duration>00:05:57</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Mon, 13 Apr 2026 00:40:00 GMT</pubDate>
       <guid isPermaLink="false">hermes-arch-ep3</guid>
