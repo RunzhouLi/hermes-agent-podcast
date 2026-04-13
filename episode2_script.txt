@@ -1,0 +1,57 @@
+《Hermes Agent 架构拆解》第二集：工具系统、执行后端与 MCP 扩展
+
+欢迎来到第二集。上一集我们讲了 Hermes 的大脑，也就是 AIAgent 主循环。这一集讲“身体”——工具系统怎么组织，命令到底在哪里执行，以及 MCP 为什么让 Hermes 变成一个可插拔平台。
+
+先下结论：Hermes 的工具体系，不是“做几个函数给模型调用”这么简单，它是“注册中心 + 运行时分发 + 执行后端 + 安全闸门”的四层结构。
+
+第一层是注册中心。官方文档和代码结构都强调，核心在 tools/registry.py。这个文件本身几乎不依赖其他模块，定位很纯：统一登记工具 schema、handler、可用性检查。每个工具文件在 import 时调用 registry.register 完成自注册。所以 Hermes 的工具发现机制是“导入即注册”。
+
+这带来一个很实用的工程约束：你新增工具，不是把函数写完就完事，还要把该文件纳入 model_tools.py 的发现链路。官方架构页给了依赖链：registry 在最底层，tools/*.py 中间层，model_tools.py 负责统一发现与调度，再被 run_agent.py 和 cli.py 等调用。
+
+第二层是工具分类。Hermes 内置覆盖面很广：
+Web 类，比如 web_search、web_extract；
+文件和命令类，比如 read_file、patch、terminal、process；
+浏览器自动化类，比如 browser_navigate、browser_snapshot、browser_vision；
+多模态类，比如 vision_analyze、text_to_speech；
+编排类，比如 todo、delegate_task、execute_code；
+记忆与检索类，比如 memory、session_search；
+自动化类，比如 cronjob；
+以及家居和消息桥接等集成能力。
+
+你可以把它看作：Hermes 把“代理能力”拆成了清晰的函数边界，再通过 toolset 组合成不同平台可见的能力集合。
+
+第三层是执行后端，重点看 terminal 工具。Hermes 的终端不绑定单机，官方文档列了六种 backend：local、docker、ssh、singularity、modal、daytona。
+
+这六种背后的设计目标不一样：
+local 追求零门槛；
+docker 强调隔离和可复现；
+ssh 适合把 agent 运行在跳板或远端机器，降低本机风险；
+singularity 面向 HPC 场景；
+modal 和 daytona 更偏云端弹性执行。
+
+这里面最有工程价值的是安全默认。文档提到容器环境会有资源与权限收敛，比如 CPU、内存、磁盘的显式上限，能力降权，不随便给特权。对于会执行 shell 的 agent，这是必须的，不是可选项。
+
+另外 Hermes 还把长任务拆成前后台双通道：
+foreground 适合短命令，拿完结果就返回；
+background 配合 process 管理器可以轮询日志、等待完成、发送输入、或者终止进程。这套机制对“跑测试、跑构建、跑部署”很关键，因为这类任务本来就会超过一次模型推理的时间窗口。
+
+第四层是 MCP。MCP 可以把 Hermes 连接到外部工具服务器。你可以把它理解成“工具生态的 USB-C 接口”：只要对方暴露 MCP server，Hermes 就能在运行时发现并调用工具。
+
+官方文档提了几个关键点。
+第一，传输支持 stdio 和 HTTP，既能本地拉起子进程，也能连远程服务。
+第二，MCP 工具是动态发现的，不是写死在代码里。如果 server 发工具列表变化通知，Hermes 可以刷新。
+第三，MCP 工具有过滤与开关能力，可以按 server 配 include / exclude，避免把不该暴露的工具扔给模型。
+第四，Hermes 还可以反过来当 MCP server，把自己的消息能力暴露给其他 agent 或 IDE。
+
+这会带来一个结构性变化：Hermes 从“一个 agent 应用”变成“一个 agent 平台”。你不再需要把所有能力硬编码进主仓库，而是可以通过 MCP 外接。
+
+说到这里必须补一刀：能力越强，风险越大。所以 Hermes 设计了命令审批系统。默认模式下，命令会走危险模式匹配，比如 rm -rf、chmod 777、drop table、可疑的 curl pipe shell 等。命中后触发审批，而不是盲跑。官方文档还提到 smart 模式会用辅助模型做额外风险评估。简单说，它不是靠“相信模型不会犯错”，而是加了一层操作系统级的防呆。
+
+如果你要自己实现类似系统，我建议照着 Hermes 这三个原则：
+第一，工具 schema 必须明确、可验证；
+第二，执行环境要可切换并有隔离策略；
+第三，高风险操作默认 fail-closed，而不是默认放行。
+
+总结这一集：Hermes 的工具系统厉害的地方，不是工具数量，而是“组织方式”。注册中心让扩展可维护，后端抽象让执行可迁移，MCP 让生态可生长，审批系统让能力可控。
+
+下一集我们收官，讲 Hermes 里最像“长期产品能力”的部分：Skills、Memory、Cron 和多平台 Gateway。也就是，怎么让 agent 不只是会做事，而是会持续变聪明、并且稳定地替你干活。

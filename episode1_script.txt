@@ -1,0 +1,33 @@
+《Hermes Agent 架构拆解》第一集：大脑是怎么转起来的
+
+大家好，这里是给开发者的 Hermes 架构拆解。第一集我们只做一件事：把 Hermes Agent 的“主循环”讲清楚。你听完后，至少会知道三件事：第一，Hermes 的核心执行链路是什么；第二，它为什么要把 Prompt 设计成“冻结快照”；第三，为什么它能在 CLI、Discord、Telegram、IDE 里共用一套大脑。
+
+先看全景。Hermes 的官方架构文档把入口分成几类：CLI、Messaging Gateway、ACP 适配器，也就是编辑器接入，还有 Batch Runner。入口很多，但核心只有一个，就是 run_agent.py 里的 AIAgent。这个文件很大，文档里说大约九千多行。换句话说，Hermes 的设计思路不是“每个平台一套 agent”，而是“一个 agent 内核 + 多个平台外壳”。
+
+那 AIAgent 真正怎么跑？你可以把它想成一个同步的控制循环。典型流程是：
+第一步，接收用户输入和历史消息；
+第二步，组装 system prompt；
+第三步，解析 provider 和 model，决定走哪种 API 模式；
+第四步，发起模型调用；
+第五步，如果模型请求工具，就分发工具调用并把结果回填消息；
+第六步，继续下一轮，直到模型返回最终自然语言答案。
+
+官方文档明确写了它支持三种 API 模式：chat_completions、codex_responses、anthropic messages。你可以理解成 Hermes 把不同大模型厂商的差异，收敛成一套统一的 agent loop。上层逻辑不用知道你现在是 OpenAI 风格、Codex 风格还是 Anthropic 风格。
+
+接下来讲最关键的 Prompt 组装。Hermes 不是只塞一段 system prompt 就开跑，它会把多种上下文拼起来。官方文档列出的来源包括：SOUL.md，也就是人格和行为准则；MEMORY.md 和 USER.md，也就是长期记忆；技能系统；项目上下文文件，比如 AGENTS.md、.hermes.md、CLAUDE.md；再加模型特定指令。
+
+重点在于“冻结快照”。Hermes 在一轮会话开始时，会把这些内容汇总成一个稳定的系统前缀，之后中途不随便改。为什么？因为这样可以吃到前缀缓存，也就是你在 Anthropic 体系里常见的 prompt caching。官方文档把这个原则叫 Prompt stability：除非用户显式触发，比如切模型，否则不要在中途改系统提示词。这个设计非常工程化：牺牲一点灵活性，换来成本、稳定性和可预期性。
+
+但会话一长，token 还是会爆。Hermes 的处理不是粗暴截断，而是通过 context_compressor 对中间轮次做有损摘要。注意这个词：有损。它不是无损压缩，所以系统需要在“信息保真”和“上下文长度”之间做权衡。文档也提到 Session 有 lineage tracking，也就是压缩前后会保留父子关系，这样你还能追溯会话是怎么演化的。
+
+再看 Provider 调度。Hermes 有一层共享的运行时解析器，会把 provider + model 映射成 api_mode、api_key、base_url。文档强调这套 resolver 被 CLI、Gateway、Cron、ACP、甚至辅助调用共用。好处很明显：切换模型提供商不是业务代码里到处 if else，而是集中在一层做能力映射、别名解析、凭据选择和回退策略。
+
+到这里你会发现，Hermes 的架构有两个鲜明取舍。
+第一，它偏“单核多壳”。核心智能都在 AIAgent，平台差异放在入口层。好处是行为一致、维护集中；代价是 run_agent.py 这种核心文件会比较重。
+第二，它偏“可观测、可中断”。文档里有 Observable execution 和 Interruptible 两个原则：工具调用过程可见，长任务可被中断。这对生产可用性非常关键，因为你不想要一个“闷头跑但不可控”的 agent。
+
+最后给你一个工程上的阅读顺序建议。如果你要真正进入这个项目，不要先看花哨功能，先走四步：第一步读架构页；第二步读 Agent Loop Internals；第三步读 Prompt Assembly 和 Context Compression；第四步再看 Provider Runtime Resolution。这样你会先建立主干，再填细节。
+
+总结这一集：Hermes 的核心不是“工具很多”，而是“把复杂性装进统一循环”。AIAgent 负责把 Prompt、模型、工具和状态串成一个可执行闭环；冻结的系统前缀保证稳定和缓存收益；统一的 provider 解析层让它具备跨平台、跨模型的可迁移性。
+
+下一集我们会拆“手和脚”——也就是工具注册表、六种终端后端、MCP 扩展，以及安全审批是怎么防止 agent 一脚踩进生产事故的。
