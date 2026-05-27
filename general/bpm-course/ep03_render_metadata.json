@@ -1,43 +1,28 @@
 {
   "episode": "EP03",
-  "input": "/root/documents/BPM_Course/source-pack/week03/ep03_tts_script_v1.1.txt",
-  "model": "gemini-2.5-flash-preview-tts",
+  "version": "v1.2",
+  "input": "/root/documents/BPM_Course/source-pack/week03/ep03_tts_script_v1.2_gemini31pro.txt",
+  "script_model": "Gemini CLI gemini-3.1-pro-preview",
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
   "voices": {
-    "A": "Kore",
-    "B": "Puck"
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
   },
-  "chunks_count": 18,
-  "chunks_sizes": [
-    287,
-    283,
-    344,
-    325,
-    236,
-    306,
-    214,
-    345,
-    291,
-    311,
-    185,
-    332,
-    282,
-    272,
-    323,
-    255,
-    196,
-    211
-  ],
-  "chunk_target_chars": 350,
+  "segments_count": 91,
   "speed": "natural (unprocessed)",
-  "wav": "/root/.hermes/audio_cache/BPM_EP03_Week03_Gemini_Flash_TTS.wav",
+  "wav": "/root/.hermes/audio_cache/BPM_EP03_v1.2_Gemini31ProScript_DoubaoTTS_full.wav",
   "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep3.mp3",
-  "duration_wav_sec": 827.737,
-  "duration_mp3_sec": 827.808,
-  "mp3_bytes": 13245356,
-  "elapsed_synthesis_time_sec": 405.19,
+  "duration_wav_sec": 778.014,
+  "duration_mp3_sec": 778.08,
+  "duration_hhmmss": "00:12:58",
+  "mp3_bytes": 12449708,
+  "elapsed_synthesis_time_sec": 306.76,
   "content_generation_provenance": {
-    "raw_draft": "Gemini CLI terminal client gemini-2.5-pro",
-    "cleanup_final": "Claude CLI terminal client claude-sonnet-4-6",
-    "pre_publish_review": "Gemini CLI terminal client gemini-3.1-pro-preview"
+    "v1_0_raw_draft": "Gemini CLI terminal client gemini-2.5-pro",
+    "v1_1_cleanup_final": "Claude CLI terminal client claude-sonnet-4-6",
+    "v1_1_pre_publish_review": "Gemini CLI terminal client gemini-3.1-pro-preview",
+    "v1_2_listening_comprehension_rewrite": "Gemini CLI terminal client gemini-3.1-pro-preview",
+    "final_audio_renderer": "Doubao/Volcengine TTS provider after Gemini TTS quota exhaustion"
   }
 }
