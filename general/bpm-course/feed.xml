@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Wed, 27 May 2026 11:34:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 13:50:02 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>第3集：流程中的“人”与“对话”：资源、消息、OR 网关与模型质量</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>基于 Week 03 - Resources, Messages, OR Gateway, Quality 1 &amp; 2 及 Exercises Week 03，讲解 BPMN 中资源（Resource）、池（Pool）、泳道（Lane）、协作图（Collaboration Diagram）、白盒/黑盒参与者、消息（Message）与消息流（Message Flow），并深入解释 OR Gateway 的拆分、合并、默认流与死锁风险。最后建立结构正确性、行为正确性、语义正确性和模型约定四维质量框架，并重点推演前三道代表性练习，第 4、5 题作为课后挑战。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第三周 BPM 课程播客：把“谁来做”和“如何沟通”放进 BPMN，并掌握 OR Gateway 与模型质量评估框架。</itunes:summary>
+      <itunes:duration>00:13:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 27 May 2026 13:50:02 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week03-ep3</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep3.mp3" length="13245356" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>第2集：BPMN 语言课：如何用“弹珠游戏”看懂业务流程图？</title>
