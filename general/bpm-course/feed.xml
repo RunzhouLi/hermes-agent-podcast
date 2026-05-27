@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>BPM 课程播客</title>
+    <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+    <language>zh-CN</language>
+    <copyright>© 2026 Li</copyright>
+    <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
+    <lastBuildDate>Wed, 27 May 2026 07:22:51 GMT</lastBuildDate>
+    <generator>Hermes Agent</generator>
+    <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
+
+    <image>
+      <url>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/cover.png</url>
+      <title>BPM 课程播客</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+    </image>
+
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Li</itunes:author>
+    <itunes:summary>把 BPM 课程资料转成中文教育播客，帮助学生和从业者用听的方式理解业务流程管理。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/cover.png" />
+    <itunes:category text="Education"/>
+    <itunes:owner>
+      <itunes:name>Li</itunes:name>
+      <itunes:email>podcast@runzhouli.dev</itunes:email>
+    </itunes:owner>
+
+    <item>
+      <title>试听版 · 第1集：从混乱到秩序：什么是 BPM，我们为什么需要它？</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>基于 Week 01 - Introduction to BPM 课件，讲解业务流程、职能孤岛、流程目标、Ford 应付账款案例与 BPM 生命周期。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第一周 BPM 课程试听版：用中文对话形式拆解业务流程管理的基础概念和经典案例。</itunes:summary>
+      <itunes:duration>00:08:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 27 May 2026 07:22:51 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week01-demo-ep1</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep1.mp3" length="8226092" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
