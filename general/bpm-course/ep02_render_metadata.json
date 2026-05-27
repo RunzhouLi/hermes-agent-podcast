@@ -1,0 +1,38 @@
+{
+  "input": "/root/documents/BPM_Course/source-pack/scripts/ep02_tts_script_v1.0.txt",
+  "model": "gemini-2.5-flash-preview-tts",
+  "voices": {
+    "A": "Kore",
+    "B": "Puck"
+  },
+  "chunks_count": 19,
+  "chunks_sizes": [
+    285,
+    205,
+    284,
+    346,
+    316,
+    328,
+    287,
+    350,
+    310,
+    262,
+    315,
+    322,
+    344,
+    312,
+    325,
+    255,
+    305,
+    310,
+    282
+  ],
+  "chunk_target_chars": 350,
+  "speed": "natural (unprocessed)",
+  "default_wav": "/root/.hermes/audio_cache/BPM_EP02_Week02_Gemini_Flash_TTS.wav",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep2.mp3",
+  "duration_wav_sec": 823.728,
+  "duration_mp3_sec": 823.8,
+  "mp3_bytes": 13181228,
+  "elapsed_synthesis_time_sec": 468.79
+}

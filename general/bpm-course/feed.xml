@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Wed, 27 May 2026 09:36:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 11:34:37 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>第2集：BPMN 语言课：如何用“弹珠游戏”看懂业务流程图？</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>基于 Week 02 - BPMN Basics &amp; Gateways 课件与配套习题，用大白话和生动的“令牌游戏 (Token Game)”带你系统攻克业务流程建模的核心要点。本集详细讲解：BPMN 的四大基本元素（任务、序列流、开始/结束事件、令牌）、排他网关（XOR）与并行网关（AND）分流和汇合机制、条件互斥与完备性逻辑、为什么隐式网关是不良实践。实战拆解课后练习 3（信用风险评估）和 4（保险理赔循环）的动态建模技巧。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第二周 BPM 课程播客：深入浅出掌握 BPMN 2.0 基础与网关核心语义，攻克两大期末必考手绘题！</itunes:summary>
+      <itunes:duration>00:13:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 27 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week02-ep2</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep2.mp3" length="13181228" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V1.2 · 第1集：从混乱到秩序：什么是 BPM，我们为什么需要它？</title>
