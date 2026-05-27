@@ -3,22 +3,171 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hermes Agent 架构拆解 Podcast</title>
+  <title>Li's Podcast Hub | 播客集</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --text: #c9d1d9;
+      --accent: #58a6ff;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text-muted: #8b949e;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0 0 10px 0;
+      color: #f0f6fc;
+    }
+    p.subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+    .channels {
+      display: grid;
+      gap: 24px;
+    }
+    .channel-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    @media (min-width: 600px) {
+      .channel-card {
+        flex-direction: row;
+      }
+    }
+    .channel-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+    .channel-cover {
+      width: 120px;
+      height: 120px;
+      border-radius: 6px;
+      background-color: #21262d;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .channel-info {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .channel-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin: 0 0 8px 0;
+      color: #f0f6fc;
+    }
+    .channel-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin: 0 0 16px 0;
+    }
+    .channel-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+    .btn-primary {
+      background-color: #21262d;
+      color: var(--accent);
+      border: 1px solid var(--border);
+    }
+    .btn-primary:hover {
+      background-color: #30363d;
+    }
+    .btn-rss {
+      background-color: #f26522;
+      color: #fff;
+      border: none;
+    }
+    .btn-rss:hover {
+      background-color: #e04f0f;
+    }
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hermes Agent 架构拆解 Podcast</h1>
-  <p>给开发者的 Hermes Agent / OpenClaw 架构与工程实践深度拆解。</p>
-  <p>RSS 订阅地址：<a href="https://runzhouli.github.io/hermes-agent-podcast/feed.xml">https://runzhouli.github.io/hermes-agent-podcast/feed.xml</a></p>
-  <ul>
-    <li><a href="ep1.mp3">第1集：大脑是怎么转起来的</a></li>
-    <li><a href="ep2.mp3">第2集：工具系统、执行后端与 MCP 扩展</a></li>
-    <li><a href="ep3.mp3">第3集：Skills、Memory、Cron 与多平台 Gateway</a></li>
-    <li><a href="ep4.mp3">第4集：路线分岔与系统边界（Hermes vs OpenClaw）</a></li>
-    <li><a href="ep5.mp3">第5集：运行时与扩展机制深拆（Hermes vs OpenClaw）</a></li>
-    <li><a href="ep6.mp3">第6集：工程落地与迁移策略（Hermes vs OpenClaw）</a></li>
-    <li><a href="ep7.mp3">第7集：开发者视角下的独特优势（Hermes vs OpenClaw）</a></li>
-    <li><a href="ep8.mp3">第8集：弱场景与失效模式（Hermes vs OpenClaw）</a></li>
-    <li><a href="ep9.mp3">第9集：迁移决策与落地清单（Hermes vs OpenClaw）</a></li>
-  </ul>
+  <div class="container">
+    <header>
+      <h1>Li's Podcast Hub</h1>
+      <p class="subtitle">我个人的播客集，记录技术洞察、架构拆解与产品思考。</p>
+    </header>
+
+    <main class="channels">
+      <!-- 频道 1: Hermes Agent 架构拆解 -->
+      <div class="channel-card">
+        <img class="channel-cover" src="./general/hermes-agent/cover.jpg" alt="Hermes Agent 架构拆解 封面" />
+        <div class="channel-info">
+          <div>
+            <div class="channel-title">Hermes Agent 架构拆解</div>
+            <p class="channel-desc">面向开发者，深入浅出拆解 Hermes Agent 与 OpenClaw 的架构、工具运行时与工程实践。</p>
+          </div>
+          <div class="channel-links">
+            <a href="./general/hermes-agent/" class="btn btn-primary">进入主页</a>
+            <a href="./general/hermes-agent/feed.xml" class="btn btn-rss" target="_blank">RSS 订阅</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 未来频道占位 (可以随时开启新节目) -->
+      <div class="channel-card" style="opacity: 0.7; border-style: dashed;">
+        <div class="channel-cover" style="display: flex; align-items: center; justify-content: center; border: 1px dashed var(--border); font-size: 2rem;">🎙️</div>
+        <div class="channel-info">
+          <div>
+            <div class="channel-title" style="color: var(--text-muted);">新频道筹备中...</div>
+            <p class="channel-desc">更多关于 AI 时代生存、个人效率及独立开发者的深度分享，敬请期待。</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 Runzhou Li. Hosted on GitHub Pages.</p>
+    </footer>
+  </div>
 </body>
 </html>
