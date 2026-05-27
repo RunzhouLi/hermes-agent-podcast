@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Wed, 27 May 2026 07:22:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 09:36:03 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -30,16 +30,16 @@
     </itunes:owner>
 
     <item>
-      <title>试听版 · 第1集：从混乱到秩序：什么是 BPM，我们为什么需要它？</title>
+      <title>V1.2 · 第1集：从混乱到秩序：什么是 BPM，我们为什么需要它？</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
-      <description>基于 Week 01 - Introduction to BPM 课件，讲解业务流程、职能孤岛、流程目标、Ford 应付账款案例与 BPM 生命周期。</description>
+      <description>基于 Week 01 - Introduction to BPM 课件，讲解业务流程、职能孤岛、隐藏流程、流程目标、Ford 应付账款案例、BPM 生命周期、参与角色与相关学科。本 V1.2 版本经过独立完整性审查，并以 Gemini 双人 TTS 按 0.9x 语速重新合成。</description>
       <itunes:author>Li</itunes:author>
-      <itunes:summary>第一周 BPM 课程试听版：用中文对话形式拆解业务流程管理的基础概念和经典案例。</itunes:summary>
-      <itunes:duration>00:08:34</itunes:duration>
+      <itunes:summary>第一周 BPM 课程 V1.2 试听版：用中文对话形式拆解业务流程管理的基础概念和经典案例。</itunes:summary>
+      <itunes:duration>00:14:17</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <pubDate>Wed, 27 May 2026 07:22:51 GMT</pubDate>
-      <guid isPermaLink="false">bpm-course-week01-demo-ep1</guid>
-      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep1.mp3" length="8226092" type="audio/mpeg" />
+      <pubDate>Wed, 27 May 2026 09:36:03 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week01-demo-ep1-v1.2</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep1-v1.2.mp3" length="13711148" type="audio/mpeg" />
     </item>
   </channel>
 </rss>

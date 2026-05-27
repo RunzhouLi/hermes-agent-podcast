@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BPM 课程播客</title>
   <style>
-    :root { --bg:#0d1117; --card:#161b22; --text:#c9d1d9; --muted:#8b949e; --accent:#58a6ff; --border:#30363d; }
+    :root { --bg:#0d1117; --card:#161b22; --text:#c9d1d9; --muted:#8b949e; --accent:#58a6ff; --border:#30363d; --good:#3fb950; }
     body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
     .container { max-width:860px; margin:0 auto; padding:40px 20px; }
     .hero { display:flex; gap:24px; align-items:center; margin-bottom:32px; }
@@ -18,6 +18,7 @@
     .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:16px; }
     .btn { display:inline-block; padding:9px 14px; border-radius:8px; text-decoration:none; border:1px solid var(--border); background:#21262d; font-weight:600; }
     .meta { color:var(--muted); font-size:0.95rem; }
+    .badge { color:var(--good); font-weight:700; }
     @media (max-width:640px) { .hero { flex-direction:column; align-items:flex-start; } }
   </style>
 </head>
@@ -32,13 +33,14 @@
     </section>
 
     <section class="card">
-      <h2>试听版 · 第 1 集：从混乱到秩序：什么是 BPM，我们为什么需要它？</h2>
-      <p class="meta">来源：Week 01 - Introduction to BPM · 时长约 08:34 · Gemini 生成内容 + Gemini TTS 试听版</p>
-      <audio controls preload="metadata" src="ep1.mp3"></audio>
-      <p>这一集围绕第一周课件，讲清楚业务流程、职能孤岛、流程目标、Ford 应付账款案例，以及 BPM 生命周期。</p>
+      <h2><span class="badge">V1.2</span> · 第 1 集：从混乱到秩序：什么是 BPM，我们为什么需要它？</h2>
+      <p class="meta">来源：Week 01 - Introduction to BPM · 时长约 14:17 · Gemini 双人 TTS · 0.9x 语速试听版</p>
+      <audio controls preload="metadata" src="ep1-v1.2.mp3"></audio>
+      <p>这一集围绕第一周课件，讲清楚业务流程、职能孤岛、隐藏流程、流程目标、Ford 应付账款案例、BPM 生命周期、参与角色与相关学科。</p>
       <div class="links">
-        <a class="btn" href="ep1.mp3">下载 MP3</a>
-        <a class="btn" href="episode1_script.txt">查看 TTS 脚本</a>
+        <a class="btn" href="ep1-v1.2.mp3">下载 V1.2 MP3</a>
+        <a class="btn" href="episode1_script_v1.2.txt">查看 V1.2 TTS 脚本</a>
+        <a class="btn" href="episode1_production_notes_v1.2.md">制作说明</a>
         <a class="btn" href="feed.xml">RSS Feed</a>
       </div>
     </section>
