@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Thu, 28 May 2026 19:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:10:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V2.0 · 第9集：像侦探一样画出现状——流程发现与流程挖掘（Process Discovery &amp; Mining）</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>本集覆盖 Week 09 — Process Discovery &amp; Process Mining：BPM 生命周期中"搞清楚流程长什么样"的关键阶段。前半集讲述流程发现——四个任务、三个挑战，证据/访谈/研讨会三种方法（含学生录取案例 Mary/Louise/Peter），以及 Verification → Validation → Certification 三级质量保证。后半集讲述流程挖掘——事件日志与点图作为"系统监控录像"，Discovery / Conformance Checking / Enhancement 三大用途，Fitness / Precision / Simplicity 三维度模型质量指标，以及"并非所有偏差都是问题"的重要洞察。采用启发式教学四阶段节奏，侦探类比贯穿六个转折点。Gemini CLI gemini-3.1-pro-preview 启发式重写 + 独立审阅，Hermes Autoproducer 应用 2 项修订。音频 100% Volcengine/Doubao seed-tts 自然语速，zh-female-warm 单音色，119 片段。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第九周 BPM 课程播客：掌握流程发现与流程挖掘两大方法，用侦探类比把碎片化知识拼成完整现状图。</itunes:summary>
+      <itunes:duration>00:20:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 00:10:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week09-ep9-v2.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep9.mp3" length="19799852" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V1.1 · 第8集：梳理流程架构，挑对流程下手——流程识别（Process Identification）</title>
