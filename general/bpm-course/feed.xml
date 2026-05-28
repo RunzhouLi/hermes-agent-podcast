@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 00:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:20:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V2.0 · 第2集：BPMN 基础与网关——用弹珠学会流程建模</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP02 启发式教学重制版。覆盖 Week 02 — BPMN Basics &amp; Gateways：从"各部门画图互不相认"的巴别塔难题切入，引入 OMG/ISO 19510 标准 BPMN。通过"蓝色小弹珠"令牌游戏比喻，讲清 Task、Sequence Flow、Start/End Event 四大基础元素。重点攻克 XOR 网关（互斥性+完备性+默认流）和 AND 网关（并行分流+同步汇合），严厉打击隐式网关不良实践。两道实战题串联：Exercise 3 信用风险评估（XOR+AND 组合）、Exercise 4 理赔循环（XOR 反馈回路）。Gemini CLI gemini-3.1-pro-preview 重写 + 独立审阅 PASS，Doubao/Volcengine TTS 自然语速，42 片段。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第二集 BPM 播客重制版：用弹珠类比和启发式教学，攻克 BPMN 流程建模的 XOR 与 AND 网关。</itunes:summary>
+      <itunes:duration>00:07:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 00:20:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week02-ep2-v2.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep2-v2.0.mp3" length="7595948" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V2.0 · 第1集：拨开迷雾——看清业务流程的本质</title>
@@ -50,7 +63,7 @@
       <itunes:summary>第九周 BPM 课程播客：掌握流程发现与流程挖掘两大方法，用侦探类比把碎片化知识拼成完整现状图。</itunes:summary>
       <itunes:duration>00:20:37</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <pubDate>Fri, 29 May 2026 00:10:00 GMT</pubDate>
+      <pubDate>Fri, 29 May 2026 00:20:00 GMT</pubDate>
       <guid isPermaLink="false">bpm-course-week09-ep9-v2.0</guid>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep9.mp3" length="19799852" type="audio/mpeg" />
     </item>
