@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Thu, 28 May 2026 08:50:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 12:20:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V1.1 · 第6集：行为正确性与 BPMN 信号</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>本集覆盖 Week 06 — BPMN Model Correctness &amp; Signals：模型质量的五个维度、令牌游戏与行为正确性、死锁与缺少同步的池内池间分析、块结构化设计（SESE）以及信号广播事件（Signal）。脚本采用大楼广播喇叭与打电话的直观类比，讲清广播通信与定向消息的区别，并通俗拆解课后练习中消息流和 Assessment Manager 协作图的核心考查点。初稿来自 Claude CLI，Gemini CLI gemini-3-flash-preview 独立审阅 PASS_WITH_FIXES，最终由 Claude CLI Sonnet 精细修剪，音频采用 100% Volcengine/Doubao 优质女音自然语速渲染。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第六周 BPM 课程播客：利用令牌游戏分析流程死锁与缺少同步，攻克池内池间建模陷阱，轻松攻克广播式 Signal 概念！</itunes:summary>
+      <itunes:duration>00:41:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 28 May 2026 12:20:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week06-ep6-v1.1</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep6.mp3" length="39525932" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V1.0 · 第5集：出意外、要撤销、要善后——BPMN 高级事件与补偿</title>

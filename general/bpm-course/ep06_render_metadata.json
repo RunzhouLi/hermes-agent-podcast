@@ -1,0 +1,32 @@
+{
+  "episode": "EP06",
+  "version": "v1.1",
+  "input": "/root/documents/BPM_Course/source-pack/week06/ep06_tts_script_v1.1.txt",
+  "script_model": "Claude CLI print mode --model sonnet, Pro account path",
+  "review_status": "Gemini CLI TUI gemini-3-flash-preview PASS_WITH_FIXES; Claude CLI --model sonnet final fixes; no Codex used",
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech wrapper; natural speed; single voice",
+  "tts_provider": "doubao/volcengine",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "voice_policy": "single Doubao voice currently authorized on this host for both hosts",
+  "segments_count": 217,
+  "provider_counts": {
+    "doubao/volcengine": 217
+  },
+  "speed": "natural (unprocessed); no 0.9x slowdown",
+  "wav": "/root/.hermes/audio_cache/BPM_EP06_v1.1_ClaudeScript_DoubaoTTS_full.wav",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep6.mp3",
+  "duration_wav_sec": 2470.283,
+  "duration_mp3_sec": 2470.344,
+  "duration_hhmmss": "00:41:10",
+  "mp3_bytes": 39525932,
+  "elapsed_synthesis_time_sec": 924.88,
+  "content_generation_provenance": {
+    "v1_0_raw_draft": "Claude CLI draft artifact ep06_script_v1.0.md",
+    "gemini_review": "Official Gemini CLI TUI review artifact ep06_gemini_review_v1.0.md; completed footer gemini-3-flash-preview; PASS_WITH_FIXES",
+    "v1_1_final_editor": "Claude CLI print mode --model sonnet --effort high applied review fixes in ep06_script_v1.1.md; RF-04 handled by deterministic TTS-clean stage; Codex usage none",
+    "final_audio_renderer": "Doubao/Volcengine TTS provider via doubao-speech wrapper unless segment_log provider shows fallback"
+  }
+}
