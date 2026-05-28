@@ -30,6 +30,19 @@
     </itunes:owner>
 
     <item>
+      <title>V2.0 · 第1集：拨开迷雾——看清业务流程的本质</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP01 启发式教学重制版。覆盖 Week 01 — Introduction to BPM：从"走流程就是官僚主义"的常见误解切入，通过透视镜类比拨开职能孤岛的迷雾。涵盖业务流程正式定义六要素、四类典型流程、硬软目标、福特应付账款经典案例（500→125人，消灭发票），以及 BPM 六阶段生命周期、七大原则、五大角色与相邻方法论。Gemini CLI gemini-3.1-pro-preview 重写 + 独立审阅 PASS，Doubao/Volcengine TTS 自然语速，72 片段。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第一集 BPM 播客重制版：用启发式教学和透视镜类比，重新认识业务流程管理的本质。</itunes:summary>
+      <itunes:duration>00:12:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 00:15:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week01-ep1-v2.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep1-v2.0.mp3" length="12084908" type="audio/mpeg" />
+    </item>
+
+    <item>
       <title>V2.0 · 第9集：像侦探一样画出现状——流程发现与流程挖掘（Process Discovery &amp; Mining）</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
       <description>本集覆盖 Week 09 — Process Discovery &amp; Process Mining：BPM 生命周期中"搞清楚流程长什么样"的关键阶段。前半集讲述流程发现——四个任务、三个挑战，证据/访谈/研讨会三种方法（含学生录取案例 Mary/Louise/Peter），以及 Verification → Validation → Certification 三级质量保证。后半集讲述流程挖掘——事件日志与点图作为"系统监控录像"，Discovery / Conformance Checking / Enhancement 三大用途，Fitness / Precision / Simplicity 三维度模型质量指标，以及"并非所有偏差都是问题"的重要洞察。采用启发式教学四阶段节奏，侦探类比贯穿六个转折点。Gemini CLI gemini-3.1-pro-preview 启发式重写 + 独立审阅，Hermes Autoproducer 应用 2 项修订。音频 100% Volcengine/Doubao seed-tts 自然语速，zh-female-warm 单音色，119 片段。</description>
