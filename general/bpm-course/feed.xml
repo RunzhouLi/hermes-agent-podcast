@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Thu, 28 May 2026 12:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 19:10:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V1.1 · 第7集：走进随机流程模型：用概率和数学看清业务流程的"不确定性"</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>本集覆盖 Week 07 — Stochastic Process Models：把静态 BPMN 流程图升级为"能算账"的随机流程模型。讲解三种网关概率（XOR 分支之和为一、OR 单条不必、事件网关先到先得）、负指数时间分布 E(λ) 的 CDF 公式与速率陷阱、轨迹概率的"沿路相乘/合并相加"法则，以及如何从事件日志反推概率并标注随机 BPMN。逐题推演课堂练习一到六（贷款拒绝、信贷循环、运输报价及时、带循环轨迹概率、在线咨询解法与俱乐部订阅超指数接力）。初稿来自 Claude CLI sonnet，Gemini CLI gemini-3.1-pro-preview 独立审阅 PASS_WITH_MINOR_FIXES，Hermes Autoproducer 应用修订。音频 100% Volcengine/Doubao seed-tts 自然语速，zh-female-warm 单音色。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第七周 BPM 课程播客：系统掌握随机流程模型的三种网关概率、负指数时间分布、轨迹概率与日志权重估计算法。</itunes:summary>
+      <itunes:duration>00:43:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 28 May 2026 19:10:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week07-ep7-v1.1</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep7.mp3" length="41701676" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V1.1 · 第6集：行为正确性与 BPMN 信号</title>
