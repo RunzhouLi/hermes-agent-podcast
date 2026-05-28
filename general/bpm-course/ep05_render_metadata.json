@@ -1,0 +1,28 @@
+{
+  "episode": "EP05",
+  "version": "v1.0",
+  "input": "/root/documents/BPM_Course/source-pack/week05/ep05_tts_script_v1.0.txt",
+  "script_model": "Claude CLI terminal client claude-sonnet-4-6",
+  "review_status": "Gemini CLI TUI/PTTY gemini-2.5-pro PASS_WITH_FIXES; local final-editor fixes resolved; no Codex used",
+  "tts_model": "Mixed resumable render: Volcengine/Doubao seed-tts cached segments where available; Gemini 2.5 Flash preview TTS fallback via doubao_tts_with_gemini_fallback.py after Doubao text_words_lifetime quota exhaustion",
+  "tts_provider": "doubao+gemini-fallback",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 317,
+  "speed": "natural (unprocessed)",
+  "wav": "/root/.hermes/audio_cache/BPM_EP05_v1.0_ClaudeScript_DoubaoTTS_full.wav",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep5.mp3",
+  "duration_wav_sec": 2844.238,
+  "duration_mp3_sec": 2844.288,
+  "duration_hhmmss": "00:47:24",
+  "mp3_bytes": 45509036,
+  "elapsed_synthesis_time_sec": 660.93,
+  "content_generation_provenance": {
+    "v1_0_raw_draft": "Claude CLI draft artifact ep05_script_v1.0.md; prior Claude log reports subscription/session limit but draft artifact exists",
+    "gemini_review": "Official Gemini CLI TUI/PTTY gemini-2.5-pro PASS_WITH_FIXES with no high-priority factual/coverage blockers",
+    "v1_0_final_editor": "Hermes cron local deterministic TTS cleanup after Gemini review checklist; Codex usage none",
+    "final_audio_renderer": "Doubao/Volcengine TTS provider via doubao-speech CLI"
+  }
+}

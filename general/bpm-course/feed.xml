@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Thu, 28 May 2026 05:19:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 08:50:58 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V1.0 · 第5集：出意外、要撤销、要善后——BPMN 高级事件与补偿</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>本集覆盖 Week 05 — BPMN Advanced Events &amp; Compensation：Terminate End Event、Event Sub-Process、Text Annotation、Boundary Event、Error Event、Compensation，以及 Week 05 练习与 selected answers 5.2/5.3。脚本用电商订单和舞台剧类比讲清“流程演到一半出意外怎么办”，并明确区分终止、边界反应、错误处理和补偿善后。初稿来自 Claude CLI artifact，Gemini CLI gemini-2.5-pro 独立审阅 PASS_WITH_FIXES，最终由 Hermes cron deterministic cleanup 修订；音频为混合 Doubao/Volcengine 缓存片段 + Doubao quota 后 Gemini 2.5 Flash preview TTS fallback，自然语速。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第五周 BPM 课程播客：系统讲解 BPMN 高级事件、错误与补偿建模。</itunes:summary>
+      <itunes:duration>00:47:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 28 May 2026 08:50:58 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week05-ep5-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep5.mp3" length="45509036" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V1.1 · 第4集：等待、记录、折叠、计时——BPMN 子流程与定时事件</title>
