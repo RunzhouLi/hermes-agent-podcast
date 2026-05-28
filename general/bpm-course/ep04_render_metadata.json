@@ -1,0 +1,28 @@
+{
+  "episode": "EP04",
+  "version": "v1.1",
+  "input": "/root/documents/BPM_Course/source-pack/week04/ep04_tts_script_v1.1.txt",
+  "script_model": "Claude CLI terminal client claude-sonnet-4-6",
+  "review_status": "Gemini CLI gemini-3.1-pro-preview review attempt timed out with no structured findings; Claude CLI claude-sonnet-4-6 performed limited review/fix",
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 124,
+  "speed": "natural (unprocessed)",
+  "wav": "/root/.hermes/audio_cache/BPM_EP04_v1.1_ClaudeScript_DoubaoTTS_full.wav",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep4.mp3",
+  "duration_wav_sec": 1578.539,
+  "duration_mp3_sec": 1578.6,
+  "duration_hhmmss": "00:26:19",
+  "mp3_bytes": 25258028,
+  "elapsed_synthesis_time_sec": 570.9,
+  "content_generation_provenance": {
+    "v1_0_raw_draft": "Claude CLI terminal client claude-sonnet-4-6",
+    "gemini_review_attempt": "Official Gemini CLI TUI/PTTY gemini-3.1-pro-preview timed out; no structured review findings produced",
+    "v1_1_review_fix": "Claude CLI terminal client claude-sonnet-4-6 limited review/fix",
+    "final_audio_renderer": "Doubao/Volcengine TTS provider via doubao-speech CLI"
+  }
+}

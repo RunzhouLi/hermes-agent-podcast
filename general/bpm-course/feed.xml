@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Wed, 27 May 2026 21:13:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 05:19:59 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V1.1 · 第4集：等待、记录、折叠、计时——BPMN 子流程与定时事件</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>本集覆盖 Week 04 — BPMN Sub-processes &amp; Timer Events：事件网关、BPMN 数据、子流程基础与进阶、定时事件，以及 Week 04 练习中的超时协作场景。脚本以客服工单系统作为稳定类比，讲清 Event-Based Gateway、Data Object、Data Store、Sub-process、Call Activity、Event Sub-process、Loop/Multi-instance/Ad-hoc Sub-process、Timer Start/Intermediate/Boundary Event 等术语。Gemini CLI 交叉审阅尝试超时未产出结构化结论；最终为 Claude CLI claude-sonnet-4-6 有限审阅修订，Doubao/Volcengine TTS 自然语速渲染。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第四周 BPM 课程播客：用客服工单系统串起 BPMN 事件网关、数据、子流程与定时事件。</itunes:summary>
+      <itunes:duration>00:26:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 28 May 2026 05:19:59 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week04-ep4-v1.1</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep4.mp3" length="25258028" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V1.2 · 第3集：流程中的“人”与“对话”：资源、消息、OR 网关与模型质量</title>
