@@ -1,0 +1,32 @@
+{
+  "episode": "EP08",
+  "version": "v1.1",
+  "input": "/root/documents/BPM_Course/source-pack/week08/ep08_tts_script_v1.1.txt",
+  "script_model": "Claude CLI print mode claude-opus-4-7",
+  "review_status": "Gemini CLI TUI gemini-3.1-pro-preview NEEDS_FIX; 3 fixes applied by Hermes Autoproducer; GO_AFTER_FIX",
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech wrapper; natural speed; single voice zh-female-warm",
+  "tts_provider": "doubao/volcengine",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "voice_policy": "single Doubao voice zh-female-warm for both hosts",
+  "segments_count": 281,
+  "provider_counts": {
+    "doubao/volcengine": 281
+  },
+  "speed": "natural (unprocessed); no 0.9x slowdown",
+  "wav": "/root/.hermes/audio_cache/BPM_EP08_v1.1_ClaudeScript_DoubaoTTS_full.wav",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep8.mp3",
+  "duration_wav_sec": 3100.862,
+  "duration_mp3_sec": 3100.92,
+  "duration_hhmmss": "00:51:41",
+  "mp3_bytes": 49615148,
+  "elapsed_synthesis_time_sec": 1124.65,
+  "content_generation_provenance": {
+    "v1_0_raw_draft": "Claude CLI claude-opus-4-7, session fbebaf33-636d-4506-b534-226bcd2a51ed",
+    "gemini_review": "Gemini CLI TUI gemini-3.1-pro-preview; NEEDS_FIX, GO_AFTER_FIX",
+    "v1_1_final_editor": "Hermes Autoproducer applied 3 review fixes (P0/P1/P2)",
+    "final_audio_renderer": "Doubao/Volcengine TTS provider via doubao-speech wrapper"
+  }
+}

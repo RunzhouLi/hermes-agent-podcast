@@ -30,6 +30,19 @@
     </itunes:owner>
 
     <item>
+      <title>V1.1 · 第8集：梳理流程架构，挑对流程下手——流程识别（Process Identification）</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>本集覆盖 Week 08 — Process Identification：BPM 生命周期中承上启下的关键阶段，回答"该管哪些流程、先管哪个"。系统讲解 Designation（流程枚举、范围界定、架构三层、三类流程、价值链与全景模型）和 Prioritisation（重要性/健康度/可行性三维标准、流程组合矩阵），以及七个常见陷阱。逐题推演课后练习 1（RWTH 流程架构）、3（旅行社案例分析）和 4（大学流程组合矩阵）。初稿来自 Claude CLI claude-opus-4-7，Gemini CLI gemini-3.1-pro-preview 独立审阅 NEEDS_FIX → GO_AFTER_FIX，Hermes Autoproducer 应用 3 项修订。音频 100% Volcengine/Doubao seed-tts 自然语速，zh-female-warm 单音色。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第八周 BPM 课程播客：掌握 Process Identification 的枚举、分类、范围界定与优先级排序方法，用医院分诊类比贯穿全课。</itunes:summary>
+      <itunes:duration>00:51:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 28 May 2026 18:11:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week08-ep8-v1.1</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep8.mp3" length="49615148" type="audio/mpeg" />
+    </item>
+
+    <item>
       <title>V1.1 · 第7集：走进随机流程模型：用概率和数学看清业务流程的"不确定性"</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
       <description>本集覆盖 Week 07 — Stochastic Process Models：把静态 BPMN 流程图升级为"能算账"的随机流程模型。讲解三种网关概率（XOR 分支之和为一、OR 单条不必、事件网关先到先得）、负指数时间分布 E(λ) 的 CDF 公式与速率陷阱、轨迹概率的"沿路相乘/合并相加"法则，以及如何从事件日志反推概率并标注随机 BPMN。逐题推演课堂练习一到六（贷款拒绝、信贷循环、运输报价及时、带循环轨迹概率、在线咨询解法与俱乐部订阅超指数接力）。初稿来自 Claude CLI sonnet，Gemini CLI gemini-3.1-pro-preview 独立审阅 PASS_WITH_MINOR_FIXES，Hermes Autoproducer 应用修订。音频 100% Volcengine/Doubao seed-tts 自然语速，zh-female-warm 单音色。</description>
