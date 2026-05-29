@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 08:45:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 09:52:08 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -29,6 +29,18 @@
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
 
+    <item>
+      <title>V3.1 · 第3A集：边界、桥梁与 OR 检查站——Pool, Lane, Message Flow 与 OR 网关</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP03A v3.1 Claude Opus 4.8 完整启发式重制前半。用"地图"贯穿隐喻，覆盖 Week 03 — Resources, Messages &amp; OR Gateway。Pool=国家、Lane=省、消息流=国际桥梁、OR=包容检查站。Host A 在每个关键概念先独立试探猜错，Host B 才给框架。包含 ERP/SAP 系统资源建模讨论、消息vs数据区分、OR Join 友善公交车司机与双JOIN互相等待死锁。Claude CLI claude-opus-4-8 初稿、Gemini CLI gemini-3.1-pro-preview 对比审阅 PASS WITH MINOR FIXES、Hermes 应用2项修订、Doubao/Volcengine TTS 自然语速，164片段，100% Doubao。时长 29:22。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>EP03A v3.1：用地图隐喻和完整启发式四阶段教学攻克组织建模（Pool/Lane/白盒黑盒）、跨组织通信（Message Flow/消息vs数据/死锁）与 OR 包容网关（Split/默认流/公交车司机Join/双OR死锁）。Claude Opus 4.8 驱动 vs Gemini v3.0 对比实验前半。</itunes:summary>
+      <itunes:duration>00:29:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 09:52:08 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep3a-v3.1.mp3" length="28199852" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep03a-v3.1-claude-opus-4-8-20260529</guid>
+    </item>
     <item>
       <title>V3.0 · 第3集：流程中的"人"与"对话"——资源、消息、OR 网关与模型质量</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
