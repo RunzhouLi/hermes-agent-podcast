@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Thu, 29 May 2026 09:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 08:45:34 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V3.0 · 第3集：流程中的"人"与"对话"——资源、消息、OR 网关与模型质量</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP03 启发式四阶段教学重制版。覆盖 Week 03 — Resources, Messages, OR Gateway &amp; Quality：用"地图+旅行者"贯穿隐喻（Pool=国家、Message Flow=桥梁、OR=检查站），从 Host A 画图"大乱斗"切入。讲清 Pool/Lane/协作图、白盒vs黑盒、实线(Sequence Flow)vs虚线(Message Flow)、消息vs数据。重点攻克 OR Gateay split/join 语义（汉堡加料直觉探索）、OR Join 互相等待死锁陷阱。四层质量框架（Structural/Behavioural/Semantic/Conventions）从问题推导，补全 Quality Assurance 人机分工。Gemini CLI gemini-3.1-pro-preview 启发式教学初稿+自审 NEEDS_FIX → GO_AFTER_FIX、Hermes 应用 3 项修订、Doubao/Volcengine TTS 自然语速，59 片段，100% Doubao。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第三集 BPM 播客重制版：用地图隐喻和启发式四阶段教学攻克组织建模、OR 网关和模型质量四层框架，补全 Quality Assurance 人机分工。</itunes:summary>
+      <itunes:duration>00:12:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 08:45:34 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week03-ep3-v3.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep3-v3.0.mp3" length="11657516" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V3.0 · 第2集：BPMN 基础与网关——用地图和弹珠学会流程建模</title>
