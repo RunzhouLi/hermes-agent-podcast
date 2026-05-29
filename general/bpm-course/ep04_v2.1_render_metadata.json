@@ -1,0 +1,33 @@
+{
+  "episode": "EP04",
+  "title": "EP04 v2.1 — BPMN 子流程与定时事件 (Claude Opus 4.8 + Gemini review)",
+  "version": "v2.1",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive mode)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model review)",
+  "fixes_applied": [
+    "Add Corleone example name",
+    "Add Check stock availability example name",
+    "Add DO/DS abbreviations",
+    "Add MI abbreviation",
+    "Pool crossing consistency note already present"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 98,
+  "speaker_counts": {
+    "A": 45,
+    "B": 53
+  },
+  "max_segment_chars": 295,
+  "cjk_chars": 6228,
+  "speed": "natural (unprocessed)",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep4-v2.1.mp3",
+  "duration_mp3_sec": 1556.328,
+  "duration_hhmmss": "00:25:56",
+  "mp3_bytes": 24901676,
+  "elapsed_synthesis_time_sec": 509.97
+}

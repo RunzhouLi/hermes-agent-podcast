@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 10:05:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 15:10:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,21 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V2.1 · 第4集：等待、记录、折叠、计时——BPMN 子流程与定时事件 (Claude Opus 4.8)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP04 完整启发式重制版 (v2.1)。Claude CLI claude-opus-4-8 互动式 TUI 初稿，Gemini CLI gemini-3.1-pro-preview 跨模型独立审阅 (NEEDS_FIX → GO_AFTER_FIX)，5 项修订全部应用。Doubao/Volcengine TTS 自然语速，98 片段，100% Doubao。时长 25:56。
+
+用客服工单系统贯穿全课：事件网关 (EBG) 等客户回复、数据对象 (DO) / 数据存储 (DS) 记录信息、子流程折叠调查 SOP、边界定时事件监控 SLA 超时。全程启发式四阶段教学——Host A 晓雨在每个概念独立探索试错，Host B 才给框架。段间因果桥接，禁止清单式过渡。五类常见混淆全部正面拆解。覆盖 Week 04 全部课件 (89 slides)：Corleone 例子、库存检查例子、法院定时事件例子、数据作用域 DO1/DO2/DO3、标记组合规则 (↺ ∥ 不可同用)、Exercise 3 综合应用、Quiz S051。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>EP04 v2.1 Claude Opus 4.8 完整启发式重制：事件网关、数据建模、子流程折叠与标记、定时事件中断/非中断。客服工单类比贯穿全程，五类混淆对比自测。</itunes:summary>
+      <itunes:duration>00:25:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 15:10:00 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep4-v2.1.mp3" length="24901676" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep04-v2.1-claude-opus-4-8-20260529</guid>
+    </item>
 
     <item>
       <title>V3.1 · 第3A集：边界、桥梁与 OR 检查站——Pool, Lane, Message Flow 与 OR 网关</title>

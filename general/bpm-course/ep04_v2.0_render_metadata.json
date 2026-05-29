@@ -1,0 +1,34 @@
+{
+  "episode": "EP04",
+  "title": "EP04 v2.0 — 等待、记录、折叠、计时：BPMN 子流程与定时事件",
+  "version": "v2.0",
+  "input": "/root/hermes-agent-podcast-repo/general/bpm-course/episode4_tts_script_v2.0.txt",
+  "script_draft_model": "Gemini CLI gemini-3.1-pro-preview",
+  "script_expansion_model": "Hermes Agent (gpt-5.5) — expanded to v1.4.0 methodology",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview self-review",
+  "fixes_applied": [
+    "Added EBG abbreviation to Event-Based Gateway introduction",
+    "Added markers discussion (Loop/Multi-instance/Ad-hoc) with combination rule (↺ ∥ mutually exclusive)"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 113,
+  "speaker_counts": {
+    "A": 52,
+    "B": 61
+  },
+  "max_segment_chars": 188,
+  "cjk_chars": 7190,
+  "speed": "natural (unprocessed)",
+  "wav": "/root/.hermes/audio_cache/BPM_EP04_v2.0_DoubaoTTS_full.wav",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep4-v2.0.mp3",
+  "duration_wav_sec": 1736.776,
+  "duration_mp3_sec": 1736.832,
+  "duration_hhmmss": "00:28:57",
+  "mp3_bytes": 27789740,
+  "elapsed_synthesis_time_sec": 559.11
+}
