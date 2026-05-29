@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 15:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 16:30:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,21 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V2.0 · 第5集：出意外、要撤销、要善后——BPMN 高级事件与补偿 (Claude Opus 4.8, PASS)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP05 完整启发式重制版 (v2.0)。Claude CLI claude-opus-4-8 互动式 TUI 初稿，Gemini CLI gemini-3.1-pro-preview 跨模型独立审阅 PASS（零修订）。Doubao/Volcengine TTS 自然语速，128 片段，100% Doubao。时长 38:00。
+
+用"舞台剧"贯穿全课：终止事件=拉幕停演、事件子流程=临时加演、文本注释=剧本批注、边界事件=后台应急面板、错误事件=台上演砸急救、补偿=返场补救。全程启发式四阶段教学，Host A 在每个概念独立试错（停不掉、跨不了层、丢了绑定关系），Host B 再给框架。段间因果桥接。区分终止vs普通结束、补偿vs错误处理、事件子流程vs边界事件。覆盖 Week 05 全部课件（33 rows），含三道练习（多实例vs AND、5.2、5.3选作答案）。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>EP05 v2.0 Claude Opus 4.8 完整启发式重制：终止事件、事件子流程、文本注释、边界事件五型、错误事件传播、补偿善后。"舞台剧"类比贯穿全程，Host A 先踩坑再学套路。</itunes:summary>
+      <itunes:duration>00:38:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 16:30:00 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep5-v2.0.mp3" length="36483884" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep05-v2.0-claude-opus-4-8-20260529</guid>
+    </item>
 
     <item>
       <title>V2.1 · 第4集：等待、记录、折叠、计时——BPMN 子流程与定时事件 (Claude Opus 4.8)</title>

@@ -1,0 +1,29 @@
+{
+  "episode": "EP05",
+  "title": "EP05 v2.0 — 高级事件与补偿 (Claude Opus 4.8, PASS)",
+  "version": "v2.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS)",
+  "fixes_applied": [
+    "None — review PASS with zero required fixes"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 128,
+  "speaker_counts": {
+    "A": 60,
+    "B": 68
+  },
+  "max_segment_chars": 246,
+  "cjk_chars": 9825,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep5-v2.0.mp3",
+  "duration_mp3_sec": 2280.216,
+  "duration_hhmmss": "00:38:00",
+  "mp3_bytes": 36483884,
+  "elapsed_synthesis_time_sec": 766.83
+}
