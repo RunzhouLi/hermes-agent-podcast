@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2026 09:00:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -28,6 +28,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>V3.0 · 第2集：BPMN 基础与网关——用地图和弹珠学会流程建模</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP02 启发式四阶段教学重制版。覆盖 Week 02 — BPMN Basics &amp; Gateways：用"地图+蓝色小球"贯穿隐喻，从"各部门画图互不相认"切入，引入 OMG/ISO 19510 标准 BPMN。通过 Token Game 讲清 Task、Sequence Flow、Start/End Event 四大基础元素和流程实例生命周期两套方案。重攻 XOR 网关（互斥性+完备性+默认流）和 AND 网关（并行分流+同步汇合），严厉纠正隐式网关。Exercise 3 信用风险评估（XOR+AND 组合）、Exercise 4 理赔循环（XOR 回路+循环入口 XOR 网关防呆）。Claude CLI claude-opus-4-8 启发式教学初稿、Gemini CLI gemini-3.1-pro-preview 独立审阅 NEEDS_FIX → GO_AFTER_FIX、Doubao/Volcengine TTS 自然语速，116 片段，100% Doubao。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>第三版 BPM 播客第二集：用地图隐喻和启发式四阶段教学，攻克 BPMN 的 XOR 与 AND 网关，加入循环入口防呆设计。</itunes:summary>
+      <itunes:duration>00:24:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 29 May 2026 09:00:00 GMT</pubDate>
+      <guid isPermaLink="false">bpm-course-week02-ep2-v3.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep2-v3.0.mp3" length="23083820" type="audio/mpeg" />
+    </item>
 
     <item>
       <title>V2.0 · 第2集：BPMN 基础与网关——用弹珠学会流程建模</title>

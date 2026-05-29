@@ -1,0 +1,30 @@
+{
+  "episode": "EP02",
+  "version": "v3.0",
+  "input": "/root/documents/BPM_Course/source-pack/week02/ep02_tts_script_v3.0.txt",
+  "script_model": "Claude CLI claude-opus-4-8 (heuristic teaching draft)",
+  "review_status": "Gemini CLI gemini-3.1-pro-preview review; NEEDS_FIX → fixes applied; GO_AFTER_FIX",
+  "tts_model": "Volcengine/Doubao seed-tts; natural speed; zh-female-warm",
+  "tts_provider": "doubao/volcengine",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 116,
+  "provider_counts": {
+    "doubao/volcengine": 116
+  },
+  "speed": "natural; no 0.9x slowdown",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpm-course/ep2-v3.0.mp3",
+  "duration_mp3_sec": 1442.712,
+  "duration_hhmmss": "00:24:03",
+  "mp3_bytes": 23083820,
+  "elapsed_synthesis_time_sec": 539.12,
+  "content_generation_provenance": {
+    "v2_0_previous": "Gemini CLI gemini-3.1-pro-preview declarative style",
+    "v3_0_remake": "Claude CLI claude-opus-4-8 heuristic teaching draft with map+token metaphor",
+    "review": "Gemini CLI gemini-3.1-pro-preview independent review → NEEDS_FIX (2 items)",
+    "fixes": "Hermes applied: Exercise 4 loop-entry gateway + English terms for Implicit Join/Split",
+    "renderer": "Doubao/Volcengine via doubao-speech wrapper"
+  }
+}
