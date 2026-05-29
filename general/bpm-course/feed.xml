@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 09:52:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 10:05:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -40,6 +40,18 @@
       <pubDate>Fri, 29 May 2026 09:52:08 GMT</pubDate>
       <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep3a-v3.1.mp3" length="28199852" type="audio/mpeg"/>
       <guid isPermaLink="false">ep03a-v3.1-claude-opus-4-8-20260529</guid>
+<item>
+      <title>V3.1 · 第3B集：流程地图质检——四层质量金字塔与习题</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
+      <description>EP03B v3.1 Claude Opus 4.8 完整启发式重制后半。从地图中场检查起，转入四层质量金字塔——Structural Correctness, Behavioural Correctness/Soundness（Option to Complete/No Dead Activities/Proper Completion）, Semantic Correctness, Model Conventions。Host A 亲手玩小球游戏发现死锁、推导 Halting Problem 和非正式 BPMN 语义限制。逐题演练全部5道习题。Claude CLI claude-opus-4-8 初稿、Gemini CLI gemini-3.1-pro-preview 对比审阅 PASS WITH MINOR FIXES、100% Doubao/Volcengine TTS 自然语速，136片段。时长 25:26。</description>
+      <itunes:author>Li</itunes:author>
+      <itunes:summary>EP03B v3.1：四层质量金字塔+电脑vs人质检分工+5道习题逐题讲解。从画地图变为检查地图——如何判断一张 BPMN 图是不是好图。</itunes:summary>
+      <itunes:duration>00:25:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 29 May 2026 09:55:25 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep3b-v3.1.mp3" length="24420524" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep03b-v3.1-claude-opus-4-8-20260529</guid>
+    </item>
     </item>
     <item>
       <title>V3.0 · 第3集：流程中的"人"与"对话"——资源、消息、OR 网关与模型质量</title>
