@@ -1,0 +1,24 @@
+{
+  "episode": "EP06",
+  "version": "2.0",
+  "title": "EP06 v2.0 — BPMN Model Correctness & Signals (Claude Opus 4.8, GO_AFTER_FIX)",
+  "script_provenance": {
+    "draft_model": "Claude CLI claude-opus-4-8 TUI",
+    "reviewer_model": "Gemini CLI gemini-3.1-pro-preview",
+    "final_editor": "Hermes Agent (4 review fixes)"
+  },
+  "tts": {
+    "provider": "Volcengine/Doubao doubao-speech CLI",
+    "voice": "zh-female-warm",
+    "speed": "natural"
+  },
+  "segments": 188,
+  "cjk_chars": 13673,
+  "max_segment_chars": 286,
+  "duration_seconds": 3286.176,
+  "duration_hhmmss": "00:54:46",
+  "mp3_size_bytes": 39434444,
+  "mp3_size_mb": 37.6,
+  "render_elapsed_seconds": 1020.0,
+  "timestamp_utc": "2026-05-30T10:57:06Z"
+}

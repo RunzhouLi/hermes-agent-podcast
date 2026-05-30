@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Management 课程资料转成适合收听的中文播客。</description>
-    <lastBuildDate>Fri, 29 May 2026 16:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 12:57:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -175,16 +175,18 @@
     </item>
 
     <item>
-      <title>V1.1 · 第6集：行为正确性与 BPMN 信号</title>
+      <title>V2.0 · 第6集：画对了≠跑得通——BPMN 行为正确性与信号 (Claude Opus 4.8, GO_AFTER_FIX)</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/</link>
-      <description>本集覆盖 Week 06 — BPMN Model Correctness &amp; Signals：模型质量的五个维度、令牌游戏与行为正确性、死锁与缺少同步的池内池间分析、块结构化设计（SESE）以及信号广播事件（Signal）。脚本采用大楼广播喇叭与打电话的直观类比，讲清广播通信与定向消息的区别，并通俗拆解课后练习中消息流和 Assessment Manager 协作图的核心考查点。初稿来自 Claude CLI，Gemini CLI gemini-3-flash-preview 独立审阅 PASS_WITH_FIXES，最终由 Claude CLI Sonnet 精细修剪，音频采用 100% Volcengine/Doubao 优质女音自然语速渲染。</description>
+      <description>EP06 完整启发式重制版 (v2.0)。Claude CLI claude-opus-4-8 互动式 TUI 初稿，Gemini CLI gemini-3.1-pro-preview 跨模型独立审阅 GO_AFTER_FIX（4 项轻量修复全部应用）。Doubao/Volcengine TTS 自然语速，188 片段，100% Doubao。时长 54:46。
+
+用"舞台剧走位图"贯穿全课：语法=剧本格式对、行为=演员照着走会不会撞车、令牌游戏=推一遍走位、信号=全场广播喇叭。全程启发式四阶段教学——Host A 在每个概念先独立探索（"一个个看？太慢""括号匹配？""UDP 广播？""环锁 vs 没人起头？"），Host B 再给框架。8 次"地图对一下"因果锚点。区分语法vs语义、信号vs消息（UDP vs TCP）、池间三种死锁（环锁/互相等待/XOR跳过）。覆盖 Week 06 全部课件（19 rows）：模型质量五维度、令牌游戏、块结构化五条件、单令牌三条件、池内反模式、池间三种事故、非正式语义与图灵完备（停机问题）、信号广播四用法、采购订单取消/惩罚/继续例子、六道练习考点。</description>
       <itunes:author>Li</itunes:author>
-      <itunes:summary>第六周 BPM 课程播客：利用令牌游戏分析流程死锁与缺少同步，攻克池内池间建模陷阱，轻松攻克广播式 Signal 概念！</itunes:summary>
-      <itunes:duration>00:41:10</itunes:duration>
+      <itunes:summary>EP06 v2.0 Claude Opus 4.8 完整启发式重制：行为正确性、令牌游戏、池内/池间检查、信号广播事件。舞台剧走位图类比贯穿，Host A 先踩坑再学框架，8 次因果锚点。</itunes:summary>
+      <itunes:duration>00:54:46</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <pubDate>Thu, 28 May 2026 12:20:00 GMT</pubDate>
-      <guid isPermaLink="false">bpm-course-week06-ep6-v1.1</guid>
-      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep6.mp3" length="39525932" type="audio/mpeg" />
+      <pubDate>Sat, 30 May 2026 12:57:00 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpm-course/ep6-v2.0.mp3" length="39434444" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep06-v2.0-claude-opus-4-8-20260530</guid>
     </item>
 
     <item>
