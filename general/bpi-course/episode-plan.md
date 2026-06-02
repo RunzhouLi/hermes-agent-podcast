@@ -9,7 +9,7 @@
 
 | EP | 源讲 | 课题 | 幻灯片 | 嵌入练习 |
 |---|---|---|---|---|
-| 01 | L1 | Introduction to Process Mining | 147 | E1 (工具导览) |
+| 01 | L1 | Introduction to Process Mining | 147 | E1 (工具导览) | ✅ v1.1 | Claude Opus 4.8 | Gemini 3.1 Pro | Doubao zh-female-warm |
 | 02 | L2 | Data Science: Supervised Learning | 135 | E2 (数据挖掘) |
 | 03 | L3 | Data Science: Unsupervised Learning & Evaluation | 132 | — |
 | 04 | L4 | Introduction to Process Discovery | 122 | E3 (Petri Nets) |
@@ -42,6 +42,8 @@
 | EP | 状态 | 讲稿模型 | 审阅 | TTS |
 |---|---|---|---|---|
 | 01–17 | 📋 待制作 | — | — | — |
+| 01 | ✅ 已发布 | Claude Opus 4.8 | Gemini 3.1 Pro | Doubao zh-female-warm |
+| 02–17 | 📋 待制作 | — | — | — |
 
 ## 制作流程
 
