@@ -7,7 +7,7 @@
     <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/</link>
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
-    <description>把 Bitcoin Policy Institute 课程资料转成适合收听的中文播客，覆盖比特币经济学、货币政策、能源挖矿、监管合规与地缘政治。</description>
+    <description>把 Business Process Intelligence (BPI) 课程资料转成适合收听的中文播客，覆盖过程发现、合规检查、流程增强与数据科学基础。Prof. Wil van der Aalst, RWTH Aachen, SS 2026。</description>
     <lastBuildDate>Mon, 02 Jun 2026 12:00:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/feed.xml" rel="self" type="application/rss+xml" />
@@ -20,7 +20,7 @@
 
     <itunes:type>episodic</itunes:type>
     <itunes:author>Li</itunes:author>
-    <itunes:summary>把 Bitcoin Policy Institute 课程资料转成中文教育播客，帮助中文听众系统理解比特币的政策、经济与监管框架。</itunes:summary>
+    <itunes:summary>把 Business Process Intelligence (BPI) 课程资料转成中文教育播客，帮助中文听众系统理解过程挖掘（Process Mining）的核心概念、发现算法、合规检查与流程增强。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/cover.png" />
     <itunes:category text="Education"/>
