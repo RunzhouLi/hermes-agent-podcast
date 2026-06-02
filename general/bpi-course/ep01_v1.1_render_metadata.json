@@ -1,0 +1,30 @@
+{
+  "episode": "EP01",
+  "title": "EP01 v1.1 — Introduction to Process Mining (Claude Opus 4.8, Gemini-reviewed)",
+  "version": "v1.1",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, NEEDS_FIX)",
+  "fixes_applied": [
+    "Added Object-Centric vs Case-Centric coverage",
+    "Adjusted 6 Host B tone instances from teacherly to conversational"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 134,
+  "speaker_counts": {
+    "A": 67,
+    "B": 67
+  },
+  "max_segment_chars": 221,
+  "cjk_chars": 7807,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep01-v1.1.mp3",
+  "duration_mp3_sec": 1925.16,
+  "duration_hhmmss": "00:32:05",
+  "mp3_bytes": 30802988,
+  "elapsed_synthesis_time_sec": 641.6
+}

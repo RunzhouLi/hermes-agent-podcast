@@ -8,7 +8,6 @@
     <language>zh-CN</language>
     <copyright>© 2026 Li</copyright>
     <description>把 Business Process Intelligence (BPI) 课程资料转成适合收听的中文播客，覆盖过程发现、合规检查、流程增强与数据科学基础。Prof. Wil van der Aalst, RWTH Aachen, SS 2026。</description>
-    <lastBuildDate>Mon, 02 Jun 2026 12:00:00 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -29,6 +28,17 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+    <lastBuildDate>Tue, 02 Jun 2026 09:30:00 GMT</lastBuildDate>
 
+    <item>
+      <title>EP01 — Introduction to Process Mining (v1.1)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep01_show_notes_v1.1.md</link>
+      <description>什么是过程挖掘（Process Mining）？从一条草坪上的渴望路径讲起，理解事件数据的结构、三种基本玩法（发现、合规检查、增强），以及 Celonis/ProM/RapidMiner 工具生态。</description>
+      <pubDate>Tue, 02 Jun 2026 09:30:00 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep01-v1.1</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep01-v1.1.mp3" length="30802988" type="audio/mpeg"/>
+      <itunes:duration>00:32:05</itunes:duration>
+      <itunes:summary>EP01 过程挖掘导论：事件数据的三要素（Case/Activity/Timestamp），三种基本类型（Process Discovery/Conformance Checking/Process Enhancement），Desire Line 类比，以及课程路线图。讲稿由 Claude Opus 4.8 生成，Gemini 3.1 Pro 审阅，Doubao zh-female-warm 渲染。</itunes:summary>
+    </item>
   </channel>
 </rss>
