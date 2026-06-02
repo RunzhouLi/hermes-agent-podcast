@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>BPI 课程播客</title>
+    <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/</link>
+    <language>zh-CN</language>
+    <copyright>© 2026 Li</copyright>
+    <description>把 Bitcoin Policy Institute 课程资料转成适合收听的中文播客，覆盖比特币经济学、货币政策、能源挖矿、监管合规与地缘政治。</description>
+    <lastBuildDate>Mon, 02 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <generator>Hermes Agent</generator>
+    <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/feed.xml" rel="self" type="application/rss+xml" />
+
+    <image>
+      <url>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/cover.png</url>
+      <title>BPI 课程播客</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/</link>
+    </image>
+
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Li</itunes:author>
+    <itunes:summary>把 Bitcoin Policy Institute 课程资料转成中文教育播客，帮助中文听众系统理解比特币的政策、经济与监管框架。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/cover.png" />
+    <itunes:category text="Education"/>
+    <itunes:category text="Government"/>
+    <itunes:owner>
+      <itunes:name>Li</itunes:name>
+      <itunes:email>podcast@runzhouli.dev</itunes:email>
+    </itunes:owner>
+
+  </channel>
+</rss>

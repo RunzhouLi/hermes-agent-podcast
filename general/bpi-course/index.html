@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BPI 课程播客</title>
+  <style>
+    :root { --bg:#0d1117; --card:#161b22; --text:#c9d1d9; --muted:#8b949e; --accent:#f7931a; --border:#30363d; --good:#3fb950; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+    .container { max-width:860px; margin:0 auto; padding:40px 20px; }
+    .hero { display:flex; gap:24px; align-items:center; margin-bottom:32px; }
+    .cover { width:160px; height:160px; border-radius:14px; border:1px solid var(--border); object-fit:cover; }
+    h1 { margin:0 0 8px; color:#f0f6fc; font-size:2.2rem; }
+    .subtitle { margin:0; color:var(--muted); }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; margin:20px 0; }
+    .card.empty { border-style:dashed; border-color:var(--muted); text-align:center; color:var(--muted); padding:48px 24px; }
+    .card.empty p { margin:4px 0; font-size:1.05rem; }
+    .card.empty .coming-soon { font-size:2rem; margin-bottom:12px; }
+    a { color:var(--accent); }
+    .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:16px; }
+    .btn { display:inline-block; padding:9px 14px; border-radius:8px; text-decoration:none; border:1px solid var(--border); background:#21262d; font-weight:600; }
+    .btn-rss { background:#f26522; color:#fff; border:none; }
+    .btn-rss:hover { background:#e04f0f; }
+    .meta { color:var(--muted); font-size:0.95rem; }
+    @media (max-width:640px) { .hero { flex-direction:column; align-items:flex-start; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <img class="cover" src="cover.png" alt="BPI 课程播客封面" />
+      <div>
+        <h1>BPI 课程播客</h1>
+        <p class="subtitle">把 Bitcoin Policy Institute 课程资料转成适合收听的中文播客。覆盖比特币经济学、货币政策、能源挖矿、监管合规与地缘政治。</p>
+      </div>
+    </section>
+
+    <section class="card empty">
+      <div class="coming-soon">🎙️</div>
+      <p><strong>即将上线</strong></p>
+      <p>第一期播客正在制作中。本频道将逐周覆盖 BPI 课程的全部模块，用启发式四阶段教学法和双人对话形式，把政策研究报告、经济学框架和案例讨论转成可听的中文课程。</p>
+    </section>
+
+    <section class="card">
+      <h2>📡 订阅方式</h2>
+      <p class="meta">通过 RSS 订阅，第一时间收到新节目通知。</p>
+      <div class="links">
+        <a class="btn btn-rss" href="feed.xml">RSS Feed</a>
+        <a class="btn" href="https://podcasts.apple.com/podcast/id1234567890">🍎 Apple Podcasts</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>📚 预计覆盖内容</h2>
+      <ul style="color:var(--muted); line-height:2;">
+        <li><strong>模组 1：比特币基础与货币政策</strong> — 比特币的货币属性、存量流量模型、去中心化共识</li>
+        <li><strong>模组 2：挖矿与能源政策</strong> — PoW 能耗争议、可再生能源整合、电网稳定角色</li>
+        <li><strong>模组 3：监管与合规框架</strong> — 全球监管格局、KYC/AML、税收分类</li>
+        <li><strong>模组 4：地缘政治与国家战略</strong> — 主权基金配置、数字黄金叙事、制裁与替代支付</li>
+        <li><strong>模组 5：比特币与宏观经济</strong> — 通胀对冲、货币竞争、新兴市场采用</li>
+      </ul>
+    </section>
+
+    <p style="margin-top:32px;"><a href="../../">← 返回 Podcast Hub</a></p>
+  </div>
+</body>
+</html>
