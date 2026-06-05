@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 05 Jun 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 15:40:00 GMT</lastBuildDate>
+
+    <item>
+      <title>EP05 — Alpha Algorithm Part 1 (Alpha算法 第一部分) (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep05_show_notes.md</link>
+      <description>编译器比喻贯穿全篇。Alpha算法从事件日志中自动推断因果/并行/选择，生成能区分三种语义的Petri网。覆盖转移系统统一表示、WF-net与健全性、四种顺序关系（直接跟随→因果→并行→选择）、足迹矩阵、八步算法、Alpha的边界（短环/非自由选择/隐藏任务/重复任务）。</description>
+      <pubDate>Fri, 05 Jun 2026 15:40:00 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep05-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep05.mp3" length="50410412" type="audio/mpeg"/>
+      <itunes:duration>00:52:31</itunes:duration>
+      <itunes:summary>EP05 Alpha算法第一部分：编译器比喻贯穿——DFG源码注释到Petri网机器码的自动翻译。四种顺序关系靠方向对称性劈开DFG哑巴箭头。足迹矩阵+八步算法：从日志自动生成WF-net，短路定理验证健全性。Alpha边界：短环/非自由选择/隐藏任务/重复任务。讲稿由 Claude Opus 4.8 TUI 生成，Gemini 3.1 Pro 审阅(GO_AFTER_FIX)，Doubao zh-female-warm 渲染。</itunes:summary>
+    </item>
 
     <item>
       <title>EP04 — Introduction to Process Discovery (过程发现入门) (v1.0)</title>

@@ -1,0 +1,31 @@
+{
+  "episode": "EP05",
+  "title": "EP05 v1.0 — Alpha Algorithm Part 1 (Claude TUI draft, Gemini-reviewed GO_AFTER_FIX)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, GO_AFTER_FIX)",
+  "fixes_applied": [
+    "Added 例句 for Soundness, Direct Succession, Parallel",
+    "Compressed Alpha steps 1-3 checklist",
+    "Softened teacher-grading B affirmations"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 273,
+  "speaker_counts": {
+    "A": 136,
+    "B": 137
+  },
+  "max_segment_chars": 159,
+  "cjk_chars": 11973,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep05.mp3",
+  "duration_mp3_sec": 3150.624,
+  "duration_hhmmss": "00:52:31",
+  "mp3_bytes": 50410412,
+  "elapsed_synthesis_time_sec": 1197.37
+}
