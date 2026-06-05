@@ -1,0 +1,31 @@
+{
+  "episode": "EP04",
+  "title": "EP04 v1.0 — Introduction to Process Discovery (Claude TUI draft, Gemini-reviewed GO_AFTER_FIX)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, GO_AFTER_FIX)",
+  "fixes_applied": [
+    "Added 例句 for Deadlock-free, Liveness, WF-net, Soundness",
+    "Softened teacher-grading B affirmations (6 instances)",
+    "Added plain explanation for Boundedness"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 251,
+  "speaker_counts": {
+    "A": 126,
+    "B": 125
+  },
+  "max_segment_chars": 238,
+  "cjk_chars": 15545,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep04.mp3",
+  "duration_mp3_sec": 3987.672,
+  "duration_hhmmss": "01:06:28",
+  "mp3_bytes": 63803180,
+  "elapsed_synthesis_time_sec": 1299.12
+}
