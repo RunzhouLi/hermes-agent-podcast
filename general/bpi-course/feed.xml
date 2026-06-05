@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Tue, 02 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 10:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>EP02 — Data Science: Supervised Learning (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep02_show_notes.md</link>
+      <description>从流程挖掘的事件日志到机器学习的决策树。情境表是PM到ML的桥梁，熵和信息增益是决策树的核心机制。覆盖监督学习、分类vs回归、ID3/C4.5/CART算法、过拟合vs欠拟合，以及如何将决策树应用到过程挖掘特征中。</description>
+      <pubDate>Fri, 05 Jun 2026 10:30:00 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep02-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep02.mp3" length="43871276" type="audio/mpeg"/>
+      <itunes:duration>00:45:42</itunes:duration>
+      <itunes:summary>EP02 监督学习与决策树：情境表作为PM→ML桥梁，熵和信息增益驱动决策树分裂，保险理赔预测作为贯穿全文的中心类比。讲稿由 Claude Opus 4.8 生成，Gemini 3.1 Pro 审阅(PASS/GO)，Doubao zh-female-warm 渲染。</itunes:summary>
+    </item>
 
     <item>
       <title>EP01 — Introduction to Process Mining (v1.1)</title>

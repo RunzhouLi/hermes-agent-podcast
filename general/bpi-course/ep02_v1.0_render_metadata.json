@@ -1,0 +1,31 @@
+{
+  "episode": "EP02",
+  "title": "EP02 v1.0 — Data Science: Supervised Learning (Claude Opus 4.8, Gemini-reviewed PASS)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS/GO)",
+  "fixes_applied": [
+    "Fixed 0.811 entropy description accuracy",
+    "Softened short Host B affirmations",
+    "Reduced checklist-feel transition"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 279,
+  "speaker_counts": {
+    "A": 139,
+    "B": 140
+  },
+  "max_segment_chars": 168,
+  "cjk_chars": 11065,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep02.mp3",
+  "duration_mp3_sec": 2741.928,
+  "duration_hhmmss": "00:45:42",
+  "mp3_bytes": 43871276,
+  "elapsed_synthesis_time_sec": 1178.01
+}
