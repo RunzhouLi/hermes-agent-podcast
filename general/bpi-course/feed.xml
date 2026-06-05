@@ -42,6 +42,17 @@
     </item>
 
     <item>
+      <title>EP03 — Data Science: Unsupervised Learning &amp; Evaluation (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep03_show_notes.md</link>
+      <description>没有标签也能学习。关联规则（Support/Confidence/Lift铁三角）、k-means聚类、交叉验证。意大利餐厅5000桌贯穿全篇，啤酒尿布、Pampers/Hoegaarden经典案例。</description>
+      <pubDate>Fri, 05 Jun 2026 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep03-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep03.mp3" length="49461932" type="audio/mpeg"/>
+      <itunes:duration>00:51:31</itunes:duration>
+      <itunes:summary>EP03 无监督学习与评估：关联规则铁三角（Support/Confidence/Lift）、k-means迭代聚类、Precision/Recall/F1、交叉验证与Concept Drift。讲稿由 Claude Opus 4.8 TUI 生成，Gemini 3.1 Pro 审阅(NEEDS_FIX/GO_AFTER_FIX)，Doubao zh-female-warm 渲染。</itunes:summary>
+    </item>
+
+    <item>
       <title>EP01 — Introduction to Process Mining (v1.1)</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep01_show_notes_v1.1.md</link>
       <description>什么是过程挖掘（Process Mining）？从一条草坪上的渴望路径讲起，理解事件数据的结构、三种基本玩法（发现、合规检查、增强），以及 Celonis/ProM/RapidMiner 工具生态。</description>

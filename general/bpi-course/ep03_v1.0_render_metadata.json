@@ -1,0 +1,31 @@
+{
+  "episode": "EP03",
+  "title": "EP03 v1.0 — Unsupervised Learning & Evaluation (Hermes-direct, Claude TUI draft, Gemini-reviewed NEEDS_FIX)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS/GO)",
+  "fixes_applied": [
+    "Fixed 0.811 entropy description accuracy",
+    "Softened short Host B affirmations",
+    "Reduced checklist-feel transition"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 282,
+  "speaker_counts": {
+    "A": 141,
+    "B": 141
+  },
+  "max_segment_chars": 170,
+  "cjk_chars": 12235,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep03.mp3",
+  "duration_mp3_sec": 3091.344,
+  "duration_hhmmss": "00:51:31",
+  "mp3_bytes": 49461932,
+  "elapsed_synthesis_time_sec": 1205.82
+}
