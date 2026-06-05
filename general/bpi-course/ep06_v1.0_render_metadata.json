@@ -1,0 +1,30 @@
+{
+  "episode": "EP06",
+  "title": "EP06 v1.0 — Alpha Algorithm Part 2: Limitations & Challenges (Claude TUI draft, Gemini-reviewed GO_AFTER_FIX)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, GO_AFTER_FIX)",
+  "fixes_applied": [
+    "Added Non-free-choice term + 例句",
+    "Added Short loops terminology protocol (直白说+例句)"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 240,
+  "speaker_counts": {
+    "A": 121,
+    "B": 119
+  },
+  "max_segment_chars": 245,
+  "cjk_chars": 10698,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep06.mp3",
+  "duration_mp3_sec": 2879.088,
+  "duration_hhmmss": "00:47:59",
+  "mp3_bytes": 46065836,
+  "elapsed_synthesis_time_sec": 978.85
+}

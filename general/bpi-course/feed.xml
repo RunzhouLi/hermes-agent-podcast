@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 05 Jun 2026 15:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:45:00 GMT</lastBuildDate>
+
+    <item>
+      <title>EP06 — Alpha Algorithm Part 2: Limitations &amp; Challenges (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep06_show_notes.md</link>
+      <description>Alpha编译器的bug清单。五站之旅：隐式库所（无害冗余）、短环（b||b荒谬崩溃）、非局部依赖/非自由选择（感官半径只有1）、表示偏差（ISA边界）、信息论极限。每个bug指向后续算法——启发式/区域/归纳挖掘。Alpha的正确性保证与局限清单是同一条边界的两面。</description>
+      <pubDate>Fri, 05 Jun 2026 22:45:00 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep06-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep06.mp3" length="46065836" type="audio/mpeg"/>
+      <itunes:duration>00:47:59</itunes:duration>
+      <itunes:summary>EP06 Alpha算法局限与挑战：编译器bug比喻贯穿五站——隐式库所/短环/非局部依赖(非自由选择)/表示偏差/信息论极限。奠基难题vs算法局限的分层。三代后续算法作为"修复线"依次出场：启发式挖掘(频率)、区域挖掘(标签拆分)、归纳挖掘(构造soundness)。讲稿由Claude Opus 4.8 TUI生成，Gemini 3.1 Pro审阅(GO_AFTER_FIX)，Doubao zh-female-warm渲染。</itunes:summary>
+    </item>
 
     <item>
       <title>EP05 — Alpha Algorithm Part 1 (Alpha算法 第一部分) (v1.0)</title>
