@@ -10,21 +10,13 @@
   ],
   "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
   "tts_provider": "doubao",
-  "voices": {
-    "A": "zh-female-warm",
-    "B": "zh-female-warm"
-  },
+  "voices": {"A": "zh-female-warm", "B": "zh-female-warm"},
   "segments_count": 240,
-  "speaker_counts": {
-    "A": 121,
-    "B": 119
-  },
-  "max_segment_chars": 245,
+  "speaker_counts": {"A": 121, "B": 119},
   "cjk_chars": 10698,
   "speed": "natural",
   "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep06.mp3",
-  "duration_mp3_sec": 2879.088,
+  "duration_mp3_sec": 2879.025,
   "duration_hhmmss": "00:47:59",
-  "mp3_bytes": 46065836,
-  "elapsed_synthesis_time_sec": 978.85
+  "mp3_bytes": 46065836
 }
