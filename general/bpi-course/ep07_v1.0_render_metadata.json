@@ -1,0 +1,29 @@
+{
+  "episode": "EP07",
+  "title": "EP07 v1.0 — Model Quality & Representation (Claude TUI draft, Gemini-reviewed PASS/GO)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS/GO)",
+  "fixes_applied": [
+    "None — review returned PASS with zero required fixes"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 313,
+  "speaker_counts": {
+    "A": 150,
+    "B": 163
+  },
+  "max_segment_chars": 197,
+  "cjk_chars": 13311,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep07.mp3",
+  "duration_mp3_sec": 3794.856,
+  "duration_hhmmss": "01:03:15",
+  "mp3_bytes": 60718124,
+  "elapsed_synthesis_time_sec": 1319.11
+}

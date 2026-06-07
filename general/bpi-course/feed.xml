@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Fri, 05 Jun 2026 22:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 19:05:45 GMT</lastBuildDate>
+
+    <item>
+      <title>EP07 — Model Quality &amp; Representation (模型质量与表达) (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep07_show_notes.md</link>
+      <description>四种质量标准（Fitness/Precision/Generalization/Simplicity）如同评价译文的四个维度：信达雅+实用。代表偏差（Representational Bias）是全课主线："中译英必然丢失敬语区分"——建模语言本身决定了你能发现什么。BPMN英语的OR-join恶性循环、Dependency Graph的句法树极简、C-net依存语法的声明式灵活——三门语言，一条主线：可视化≠表达偏差。</description>
+      <pubDate>Sun, 07 Jun 2026 19:05:45 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep07-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep07.mp3" length="60718124" type="audio/mpeg"/>
+      <itunes:duration>01:03:15</itunes:duration>
+      <itunes:summary>EP07 模型质量与表达：翻译与语言中心类比——四种质量标准（Fitness信/Precision达/Generalization通/Simplicity雅）、表达偏差主线（WF-net偏见、并发爆炸、可视化≠表达偏差）、BPMN英语与OR-join恶性循环、Dependency Graph句法树、C-net依存语法与声明式语义、abcdcbde终极测试。讲稿由 Claude Opus 4.8 TUI 生成，Gemini 3.1 Pro 审阅(PASS/GO)，Doubao zh-female-warm 渲染。</itunes:summary>
+    </item>
 
     <item>
       <title>EP06 — Alpha Algorithm Part 2: Limitations &amp; Challenges (v1.0)</title>
