@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 07 Jun 2026 22:19:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 23:16:35 GMT</lastBuildDate>
+
+    <item>
+      <title>EP10 — Inductive Mining (归纳式挖掘) (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep10_show_notes.md</link>
+      <description>第四种发现范式：像切蛋糕一样递归切分。瑞士军刀类比：四把刀(→序列/×选择/∧并行/↺循环)+τ万金油。过程树天然健全。归纳切割：DFG找自然裂缝→一刀切开→递归。花朵模型兜底。ProM+Celonis工业落地。案例中心发现的最后一讲，四种范式句号。</description>
+      <pubDate>Sun, 07 Jun 2026 23:16:35 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep10-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep10.mp3" length="40848428" type="audio/mpeg"/>
+      <itunes:duration>00:42:33</itunes:duration>
+      <itunes:summary>EP10 归纳式挖掘：瑞士军刀类比——过程树+四把刀+τ万金油。构造健全性(数学归纳法)。归纳切割：DFG裂缝→四种刀具→递归切分。花朵模型/fall-through兜底。ProM+Celonis工业落地。讲稿Claude Opus 4.8 TUI，Gemini 3.1 Pro(GO_AFTER_FIX)，Doubao zh-female-warm。</itunes:summary>
+    </item>
 
     <item>
       <title>EP09 — Region-Based Mining (基于区域的挖掘) (v1.0)</title>

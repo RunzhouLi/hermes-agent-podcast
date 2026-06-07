@@ -1,0 +1,29 @@
+{
+  "episode": "EP10",
+  "title": "EP10 v1.0 — Inductive Mining (Claude TUI draft, Gemini-reviewed GO_AFTER_FIX)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS/GO)",
+  "fixes_applied": [
+    "None — review returned PASS with zero required fixes"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 171,
+  "speaker_counts": {
+    "A": 80,
+    "B": 91
+  },
+  "max_segment_chars": 203,
+  "cjk_chars": 9657,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep10.mp3",
+  "duration_mp3_sec": 2553.0,
+  "duration_hhmmss": "00:42:33",
+  "mp3_bytes": 40848428,
+  "elapsed_synthesis_time_sec": 806.5
+}
