@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 07 Jun 2026 19:05:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 20:29:38 GMT</lastBuildDate>
+
+    <item>
+      <title>EP08 — Heuristic Mining (启发式挖掘) (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep08_show_notes.md</link>
+      <description>Alpha一碰噪声就碎。启发式挖掘靠频率统计。考古学比喻贯穿：trace=地层样本，frequency=出土次数，依赖度=方向性，双阈值=置信度。Phase 1从频率数出依赖图，Phase 2滑动窗口学出C-net绑定。披萨实战：纯频率还原出"三料齐全才吃（2³=8）"的业务规则。</description>
+      <pubDate>Sun, 07 Jun 2026 20:29:38 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep08-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep08.mp3" length="37303724" type="audio/mpeg"/>
+      <itunes:duration>00:38:51</itunes:duration>
+      <itunes:summary>EP08 启发式挖掘：考古学类比贯穿——Alpha噪声局限→频率统计→依赖度公式[-1,1]→双阈值过滤→五类模式识别→滑动窗口绑定学习→C-net文化层序报告→披萨实战完美拟合。讲稿由 Claude Opus 4.8 TUI 生成，Gemini 3.1 Pro 审阅(PASS/GO)，Doubao zh-female-warm 渲染。</itunes:summary>
+    </item>
 
     <item>
       <title>EP07 — Model Quality &amp; Representation (模型质量与表达) (v1.0)</title>

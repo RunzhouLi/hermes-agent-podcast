@@ -1,0 +1,29 @@
+{
+  "episode": "EP08",
+  "title": "EP08 v1.0 — Heuristic Mining (Claude TUI draft, Gemini-reviewed PASS/GO)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS/GO)",
+  "fixes_applied": [
+    "None — review returned PASS with zero required fixes"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 180,
+  "speaker_counts": {
+    "A": 90,
+    "B": 90
+  },
+  "max_segment_chars": 179,
+  "cjk_chars": 8801,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep08.mp3",
+  "duration_mp3_sec": 2331.456,
+  "duration_hhmmss": "00:38:51",
+  "mp3_bytes": 37303724,
+  "elapsed_synthesis_time_sec": 799.78
+}
