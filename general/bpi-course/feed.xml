@@ -28,7 +28,18 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
-    <lastBuildDate>Sun, 07 Jun 2026 20:29:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 22:19:30 GMT</lastBuildDate>
+
+    <item>
+      <title>EP09 — Region-Based Mining (基于区域的挖掘) (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep09_show_notes.md</link>
+      <description>第三种完全不同的发现思路。卫星制图类比贯穿：迁移系统=原始影像，抽象=分辨率，区域=同色色块，Petri网=矢量化地图。两阶段：Phase 1拍影像(序列/集合/多重集/n-tail)，Phase 2分色找区域(all-enter/all-exit/all-skip)→极小区域→Petri网。模拟vs互模拟的鸿沟，标签拆分恢复等价。Just Cheese Please!实战验证。</description>
+      <pubDate>Sun, 07 Jun 2026 22:19:30 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep09-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep09.mp3" length="52145708" type="audio/mpeg"/>
+      <itunes:duration>00:54:19</itunes:duration>
+      <itunes:summary>EP09 区域挖掘：卫星制图类比贯穿——迁移系统=影像/抽象=分辨率/区域=色块/Petri网=矢量化。Phase 1三粒度+n-tail，Phase 2极小区域→库所。模拟vs互模拟鸿沟，标签拆分恢复等价。Just Cheese Please!实战。四种力收束。讲稿Claude Opus 4.8 TUI，Gemini 3.1 Pro审阅(PASS/GO)，Doubao zh-female-warm。</itunes:summary>
+    </item>
 
     <item>
       <title>EP08 — Heuristic Mining (启发式挖掘) (v1.0)</title>

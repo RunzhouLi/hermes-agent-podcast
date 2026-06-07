@@ -1,0 +1,29 @@
+{
+  "episode": "EP09",
+  "title": "EP09 v1.0 — Region-Based Mining (Claude TUI draft, Gemini-reviewed PASS/GO)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, PASS/GO)",
+  "fixes_applied": [
+    "None — review returned PASS with zero required fixes"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 214,
+  "speaker_counts": {
+    "A": 102,
+    "B": 112
+  },
+  "max_segment_chars": 230,
+  "cjk_chars": 12519,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep09.mp3",
+  "duration_mp3_sec": 3259.08,
+  "duration_hhmmss": "00:54:19",
+  "mp3_bytes": 52145708,
+  "elapsed_synthesis_time_sec": 1046.33
+}
