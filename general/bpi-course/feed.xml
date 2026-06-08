@@ -31,6 +31,17 @@
     <lastBuildDate>Sun, 07 Jun 2026 23:16:35 GMT</lastBuildDate>
 
     <item>
+      <title>EP12 — Conformance Checking Part 1 (一致性检查 上) (v1.0)</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep12_show_notes.md</link>
+      <description>一致性检查：模型vs日志。四个维度(拟合/精确/泛化/简洁)，帕累托取舍。因果足迹：直接后继x&gt;y。令牌回放：p/c/m/r四计数器+不变量+完美vs失败walkthrough。医学体检类比贯穿全篇。</description>
+      <pubDate>Mon, 08 Jun 2026 09:00:50 GMT</pubDate>
+      <guid isPermaLink="false">bpi-ep12-v1.0</guid>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep12.mp3" length="40312748" type="audio/mpeg"/>
+      <itunes:duration>00:42:00</itunes:duration>
+      <itunes:summary>EP12 一致性检查上：体检类比——模型vs日志=模板vs病历。4维度+Pareto取舍(灵敏度vs特异性)。因果足迹x&gt;y。令牌回放p/c/m/r+不变量推导+完整walkthrough。医学体检贯穿。Claude Opus 4.8 TUI，Gemini 3.1 Pro(NEEDS_FIX修复)，Doubao zh-female-warm 42:00。</itunes:summary>
+    </item>
+
+    <item>
       <title>EP11 — Event Data &amp; Exploration (事件数据与探索) (v1.0)</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/bpi-course/ep11_show_notes.md</link>
       <description>事件数据的全貌：五层元模型(流程→案例→活动→实例→事件)、事务生命周期、XES IEEE 1849-2023。点图震波勘探：三种纵轴、绝对/相对时间。三种从数据库抽事件的方式。核心翻转：案例概念(notion)是建模选择，不是数据给定。对象中心数据(OCEL)、展平三种病态(收敛/发散/缺陷)。OCPM与G4L。类比地质勘探</description>

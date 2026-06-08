@@ -1,0 +1,30 @@
+{
+  "episode": "EP12",
+  "title": "EP12 v1.0 — Conformance Checking Part 1 (Claude TUI draft, Gemini-reviewed NEEDS_FIX, fixes applied)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, NEEDS_FIX)",
+  "fixes_applied": [
+    "Fixed p/c arithmetic: acdeh summary p=c=6→7 (was contradictory with walkthrough addition 1+2+1+1+1+1=7)",
+    "Added x>y notation disclaimer: \"not a greater-than sign, just a succession marker\""
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 190,
+  "speaker_counts": {
+    "A": 95,
+    "B": 95
+  },
+  "max_segment_chars": 333,
+  "cjk_chars": 10095,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep12.mp3",
+  "duration_mp3_sec": 2519.52,
+  "duration_hhmmss": "00:42:00",
+  "mp3_bytes": 40312748,
+  "elapsed_synthesis_time_sec": 917.84
+}
