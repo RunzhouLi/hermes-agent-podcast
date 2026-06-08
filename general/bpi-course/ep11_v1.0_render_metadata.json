@@ -1,0 +1,32 @@
+{
+  "episode": "EP11",
+  "title": "EP11 v1.0 — Event Data & Exploration (Claude TUI draft, Gemini-reviewed NEEDS_FIX, fixes applied)",
+  "version": "v1.0",
+  "script_model": "Claude CLI claude-opus-4-8 (TUI interactive)",
+  "review_model": "Gemini CLI gemini-3.1-pro-preview (cross-model, NEEDS_FIX)",
+  "fixes_applied": [
+    "Removed TTS-unfriendly parenthetical English (e.g. \"点图（dotted chart）\" → \"点图，英文叫 dotted chart\")",
+    "Removed 4 short B affirmations (\"干净\", \"收得干净\", \"收得好\") per review pitfall #20",
+    "Fixed case/trace slash notation (\"案例/轨迹（case/trace）\" → \"案例是 Case，脚印叫轨迹 Trace\")",
+    "Concept depth audit: 6/6 core concepts PASS all 4 layers (Hunger→Explore→Construct→Anchor)"
+  ],
+  "tts_model": "Volcengine/Doubao seed-tts via doubao-speech CLI",
+  "tts_provider": "doubao",
+  "voices": {
+    "A": "zh-female-warm",
+    "B": "zh-female-warm"
+  },
+  "segments_count": 291,
+  "speaker_counts": {
+    "A": 146,
+    "B": 145
+  },
+  "max_segment_chars": 261,
+  "cjk_chars": 12779,
+  "speed": "natural",
+  "final_mp3": "/root/hermes-agent-podcast-repo/general/bpi-course/ep11.mp3",
+  "duration_mp3_sec": 3346.08,
+  "duration_hhmmss": "00:55:46",
+  "mp3_bytes": 53537708,
+  "elapsed_synthesis_time_sec": 1269.88
+}
