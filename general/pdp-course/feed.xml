@@ -6,7 +6,7 @@
     <language>zh-CN</language>
     <description>基于 RWTH Aachen Summer 2026 Concepts and Models of Parallel and Data-centric Programming 课程资料编写的中文双人学习播客。独立学习资料，非学校或教师官方节目；AI 合成语音，中文主讲并解释英文术语。</description>
     <copyright>© 2026 Runzhou Li</copyright>
-    <lastBuildDate>Tue, 22 Sep 2026 18:27:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:56:36 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -25,6 +25,19 @@
       <itunes:name>Li</itunes:name>
       <itunes:email>podcast@runzhouli.dev</itunes:email>
     </itunes:owner>
+    <item>
+      <guid isPermaLink="false">pdp-ep04</guid>
+      <pubDate>Tue, 22 Sep 2026 18:56:36 GMT</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/#ep04</link>
+      <title>EP04 — 什么时候等待，什么时候继续做别的事？</title>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/audio/ep04-806e6d04af57b2b087c0b85250f730a089c228a786d805cf91791c4eda5cadd5.mp3" length="22803596" type="audio/mpeg" />
+      <itunes:duration>00:31:40</itunes:duration>
+      <podcast:chapters url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep04-806e6d04af57b2b087c0b85250f730a089c228a786d805cf91791c4eda5cadd5-257aa379e0b53ac98c1bc38b84edca977130616225500c5bbe2bd22e63a881e4-chapters.json" type="application/json+chapters" />
+      <description>technical-preview：技术检查通过；人类听感尚未测试。 &lt;a href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/episodes/ep04/show-notes.html"&gt;学习附录 / 文稿&lt;/a&gt;</description>
+    </item>
     <item>
       <guid isPermaLink="false">pdp-ep03</guid>
       <pubDate>Tue, 22 Sep 2026 18:27:04 GMT</pubDate>

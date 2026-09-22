@@ -1,0 +1,85 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "作业服务的两次停顿"
+    },
+    {
+      "startTime": 67.134,
+      "title": "拿着钥匙等订单"
+    },
+    {
+      "startTime": 149.088,
+      "title": "把检查与入睡接起来"
+    },
+    {
+      "startTime": 261.27,
+      "title": "作业十二的交接"
+    },
+    {
+      "startTime": 367.056,
+      "title": "提醒声没有预留名额"
+    },
+    {
+      "startTime": 484.578,
+      "title": "接口要包住完整动作"
+    },
+    {
+      "startTime": 567.444,
+      "title": "练习一：三次队列交接"
+    },
+    {
+      "startTime": 666.966,
+      "title": "练习一的可选提示"
+    },
+    {
+      "startTime": 700.596,
+      "title": "练习一解析"
+    },
+    {
+      "startTime": 798.762,
+      "title": "从队列状态到一份计算结果"
+    },
+    {
+      "startTime": 934.5,
+      "title": "有结果句柄，不等于任务已经运行"
+    },
+    {
+      "startTime": 1064.55,
+      "title": "先把工作分开，再谈并行"
+    },
+    {
+      "startTime": 1147.524,
+      "title": "一批订单怎样拆分"
+    },
+    {
+      "startTime": 1264.65,
+      "title": "把等待放回依赖发生的地方"
+    },
+    {
+      "startTime": 1353.828,
+      "title": "给这张图记时间"
+    },
+    {
+      "startTime": 1454.598,
+      "title": "练习二：新批次的安排"
+    },
+    {
+      "startTime": 1566.792,
+      "title": "练习二的可选提示"
+    },
+    {
+      "startTime": 1612.122,
+      "title": "练习二解析"
+    },
+    {
+      "startTime": 1747.56,
+      "title": "理想图以外的账"
+    },
+    {
+      "startTime": 1840.386,
+      "title": "离开服务之前"
+    }
+  ]
+}
