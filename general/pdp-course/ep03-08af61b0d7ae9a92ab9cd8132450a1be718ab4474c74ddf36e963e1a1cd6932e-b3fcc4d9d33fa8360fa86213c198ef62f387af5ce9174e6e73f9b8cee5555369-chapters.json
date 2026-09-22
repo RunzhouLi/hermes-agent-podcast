@@ -1,0 +1,93 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "同一个服务的三道关"
+    },
+    {
+      "startTime": 62.094,
+      "title": "同一间屋子，不同的执行位置"
+    },
+    {
+      "startTime": 193.212,
+      "title": "先让共享不等于争抢"
+    },
+    {
+      "startTime": 290.07,
+      "title": "等待要放在依赖的前面"
+    },
+    {
+      "startTime": 384.108,
+      "title": "句柄离开了，数据不能先离开"
+    },
+    {
+      "startTime": 484.866,
+      "title": "清理责任也有主人"
+    },
+    {
+      "startTime": 643.176,
+      "title": "EP03-T1 题目"
+    },
+    {
+      "startTime": 725.378,
+      "title": "EP03-T1 提示"
+    },
+    {
+      "startTime": 750.716,
+      "title": "EP03-A1 解析"
+    },
+    {
+      "startTime": 856.862,
+      "title": "从分工表走到共享队头"
+    },
+    {
+      "startTime": 932.228,
+      "title": "每一步完整，不等于整件事完整"
+    },
+    {
+      "startTime": 1041.674,
+      "title": "C++ 合法性要先判断"
+    },
+    {
+      "startTime": 1150.784,
+      "title": "把哪一段放进同一扇门"
+    },
+    {
+      "startTime": 1302.506,
+      "title": "EP03-T2 题目"
+    },
+    {
+      "startTime": 1384.624,
+      "title": "EP03-T2 提示"
+    },
+    {
+      "startTime": 1405.122,
+      "title": "EP03-A2 解析"
+    },
+    {
+      "startTime": 1490.148,
+      "title": "两个局部安全，合起来会怎样"
+    },
+    {
+      "startTime": 1591.434,
+      "title": "拆掉等待环，还剩什么承诺"
+    },
+    {
+      "startTime": 1710.852,
+      "title": "EP03-T3 题目"
+    },
+    {
+      "startTime": 1784.882,
+      "title": "EP03-T3 提示"
+    },
+    {
+      "startTime": 1806.716,
+      "title": "EP03-A3 解析"
+    },
+    {
+      "startTime": 1893.722,
+      "title": "把三道关串成一条检查路径"
+    }
+  ]
+}
