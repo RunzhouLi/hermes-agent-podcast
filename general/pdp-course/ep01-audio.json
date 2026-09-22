@@ -1,24 +1,1454 @@
 {
-  "episode": "ep01",
-  "provider": "alibaba-model-studio",
-  "model": "qwen-audio-3.0-tts-plus",
-  "speaker_voices": {
-    "A": "longanlufeng",
-    "B": "longanlingxin"
-  },
-  "ssml_rate": 0.96,
-  "segments": 125,
-  "cache_hits": 111,
-  "sample_rate": 24000,
-  "channels": 1,
-  "bitrate_kbps": 96,
-  "normalization": "ffmpeg loudnorm I=-18 TP=-1.5 LRA=11",
-  "duration_seconds": 1850.424,
-  "bytes": 22205996,
-  "sha256": "4686b1f915568e7ea99317af1ad18291986649204a4a452b06d23af1ad5c257d",
-  "source_script_sha256": "1d8d8a5b056b15d9480bfb8f937cd012a0cedda4ed1911a36660cb1706041dd5",
-  "source_segments_sha256": "909a8767aec0060bc50acd4be7637bc5dd3df7799d3a8f6b8592c21e2743175a",
+  "sha256": "c4ea5cae5a32ccca3c3674d4b50058447bcbd9c004925f56834020f05b671c34",
+  "bytes": 21978764,
+  "duration_seconds": 1831.466,
+  "timeline_sha256": "535bc64503fa90e46b4316842a28188bbd40ad869c74ebb359d9ff0a8dd01776",
+  "chapters_sha256": "75795ef82621697681c6a41fddb36d7f4d70783180a10d5d04ee6d5749ef7435",
+  "pcm_duration_seconds": 1831.466,
   "full_decode_pass": true,
+  "turns": [
+    {
+      "kind": "speech",
+      "section": "S01",
+      "speaker": "A",
+      "id": "S01-A-cd5d37db3aa12a7e-1",
+      "cache_key": "b8269ad628d6a8e6f6444962c57e8b5cc47c82ba80d228469815c7ffd5b5c35f",
+      "cache_hit": true,
+      "start": 0.0,
+      "end": 11.184
+    },
+    {
+      "kind": "speech",
+      "section": "S01",
+      "speaker": "B",
+      "id": "S01-B-67e953640ad223eb-1",
+      "cache_key": "5a11b9d36765b02177c64b5562589fa141a8b9b11b5c3712b39076f084e7314a",
+      "cache_hit": true,
+      "start": 11.484,
+      "end": 26.988
+    },
+    {
+      "kind": "speech",
+      "section": "S01",
+      "speaker": "A",
+      "id": "S01-A-dc3ae0cc1579386a-1",
+      "cache_key": "9c7279e0019d5fb72c9e5ba45d04c8c41ae308000d790e5de39701a5c8a02c5c",
+      "cache_hit": true,
+      "start": 27.288,
+      "end": 31.992
+    },
+    {
+      "kind": "speech",
+      "section": "S01",
+      "speaker": "B",
+      "id": "S01-B-feb455a146b7c8c9-1",
+      "cache_key": "f8358e9842f175d4c256a20a0fb4c8e7dc52f963cb2263116c56551a8ddd3d67",
+      "cache_hit": true,
+      "start": 32.292,
+      "end": 51.468
+    },
+    {
+      "kind": "speech",
+      "section": "S01",
+      "speaker": "A",
+      "id": "S01-A-e752f47c1e6cbf17-1",
+      "cache_key": "54e2d25858540d9bb79e0cdf01bb3932db965d28ac7c0c2170c4e52ce3928ea6",
+      "cache_hit": true,
+      "start": 51.768,
+      "end": 56.784
+    },
+    {
+      "kind": "speech",
+      "section": "S01",
+      "speaker": "B",
+      "id": "S01-B-655832b70558e1ff-1",
+      "cache_key": "418ffb42458dec45918e131b683ccce848ebcbdf639183d5094d013e336f1cab",
+      "cache_hit": true,
+      "start": 57.084,
+      "end": 69.132
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "B",
+      "id": "S02-B-3efc0db92fb4f624-1",
+      "cache_key": "391ea7433efdd10d4ed8b3b1f8bd8ac5815f125a28812f9a63453fc0692ec72d",
+      "cache_hit": true,
+      "start": 70.182,
+      "end": 80.31
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "A",
+      "id": "S02-A-7d77d83ad0a2e976-1",
+      "cache_key": "a765b4b9a9762943893a6f66d993673b7cfeab0cdef2b4f464ae7c6f1d609e32",
+      "cache_hit": true,
+      "start": 80.61,
+      "end": 85.458
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "B",
+      "id": "S02-B-b6323b6476a36dea-1",
+      "cache_key": "1f733171b2fb1d1f7b925f3895215b7d39715e480d3976c2b231cc0c7c943282",
+      "cache_hit": true,
+      "start": 85.758,
+      "end": 97.734
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "A",
+      "id": "S02-A-e01f54871817c2db-1",
+      "cache_key": "d1dce87594d5034ae08e89342e6c3571d674873cf9851a0a0ae1a4807e173bed",
+      "cache_hit": true,
+      "start": 98.034,
+      "end": 100.65
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "B",
+      "id": "S02-B-d4b99cd8527488d4-1",
+      "cache_key": "9388e664546c07ee2fdc4e1740c5d131eef6f06b4610879ef1ef52dfddfbbd7e",
+      "cache_hit": true,
+      "start": 100.95,
+      "end": 115.638
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "A",
+      "id": "S02-A-3d7531c762eb15c4-1",
+      "cache_key": "791703f380a12e729e6c8f075921f86461dfa975c27ab3b654d378268dda07eb",
+      "cache_hit": true,
+      "start": 115.938,
+      "end": 123.834
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "B",
+      "id": "S02-B-def0cdd4e710e483-1",
+      "cache_key": "54a13be9e1e7bfe3a5844f751011f3ea1b024797f0a43b9dfcc512cd706d0da5",
+      "cache_hit": true,
+      "start": 124.134,
+      "end": 138.198
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "A",
+      "id": "S02-A-f801773a2cb285b0-1",
+      "cache_key": "7577d7c6fa6c612ee82ef571c6370ff161df38f7654bd1768da8c46c375ceef2",
+      "cache_hit": true,
+      "start": 138.498,
+      "end": 143.346
+    },
+    {
+      "kind": "speech",
+      "section": "S02",
+      "speaker": "B",
+      "id": "S02-B-8105f6cc227bcf8c-1",
+      "cache_key": "9f2af61d0cf07c15d300815eba78c285045b85ea3a558bb57250c87fa219f5d0",
+      "cache_hit": true,
+      "start": 143.646,
+      "end": 161.55
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "A",
+      "id": "S03-A-787e2f2d32111290-1",
+      "cache_key": "33f762625e8e20f0d84f99b9b0d4e30e895f4e277449d4e67134f0b5f8f5f4f6",
+      "cache_hit": true,
+      "start": 162.6,
+      "end": 168.744
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "B",
+      "id": "S03-B-e3989394e19c014d-1",
+      "cache_key": "2ff2125597f6e8ea1164f0b087b1d5866abb221f09469a87fb081f8112ff8cf7",
+      "cache_hit": true,
+      "start": 169.044,
+      "end": 188.052
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "A",
+      "id": "S03-A-027615662fbfbfa9-1",
+      "cache_key": "5d82e7747f2565680cd48003182aa4c04cdfdd7a02aa625f4db241354ef6457d",
+      "cache_hit": true,
+      "start": 188.352,
+      "end": 193.92
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "B",
+      "id": "S03-B-851a3775600fcf8d-1",
+      "cache_key": "8bb9dca82d81906d9690aac6c3874453ca7aa39d54884a71c1afa20dbe190cf9",
+      "cache_hit": true,
+      "start": 194.22,
+      "end": 211.236
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "A",
+      "id": "S03-A-68bcccd6cf3080d6-1",
+      "cache_key": "9de2ae3ed53f9e68e471fb585985af10628d3e0fadb790d1eed3c474d0ba7c55",
+      "cache_hit": true,
+      "start": 211.536,
+      "end": 218.784
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "B",
+      "id": "S03-B-8eaa170bbb57d6a7-1",
+      "cache_key": "7059ccfdb0888abd2c61120890c0310da09ae7afcb9b0f999eeead087f44ae7b",
+      "cache_hit": true,
+      "start": 219.084,
+      "end": 238.5
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "A",
+      "id": "S03-A-8ee9883b1e0cbdb6-1",
+      "cache_key": "b343b2d92b4d5bba079c24f54be2d97df064c4866a6abd109448e037188ed1ba",
+      "cache_hit": true,
+      "start": 238.8,
+      "end": 248.208
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "B",
+      "id": "S03-B-98291ab61a3cd4dd-1",
+      "cache_key": "467004025216d6b2ed73fe71dc712b443833638fdca9cc69859f4014d1618366",
+      "cache_hit": true,
+      "start": 248.508,
+      "end": 261.612
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "A",
+      "id": "S03-A-3e1799f0ffece0a0-1",
+      "cache_key": "707e3728eb5dbdb0dc580380c54c24b0aa9869e777f7d5d115689423a4bd521a",
+      "cache_hit": true,
+      "start": 261.912,
+      "end": 272.04
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "B",
+      "id": "S03-B-6bdd47173c5e9f1b-1",
+      "cache_key": "e673f64804613e710c45e8848444d86a596a42dc911765af887834e7584c048c",
+      "cache_hit": true,
+      "start": 272.34,
+      "end": 290.628
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "A",
+      "id": "S03-A-1d853325144781de-1",
+      "cache_key": "dd673524c668a1ea412f000de389877b80b87f87ec460955f822300cb8029743",
+      "cache_hit": true,
+      "start": 290.928,
+      "end": 297.216
+    },
+    {
+      "kind": "speech",
+      "section": "S03",
+      "speaker": "B",
+      "id": "S03-B-6879532482206c03-1",
+      "cache_key": "41f688c780e1de1256b9306792a8a81d5ac25b0f7bbbb7d34860aeeeb84b8f26",
+      "cache_hit": true,
+      "start": 297.516,
+      "end": 310.284
+    },
+    {
+      "kind": "speech",
+      "section": "S04",
+      "speaker": "B",
+      "id": "S04-B-1d651fee56169ad4-1",
+      "cache_key": "4c39fc1b6d98ac1dfbcb01f7e6cdbe8c002360c3f8ed2a9af0f8e9a818dccdd8",
+      "cache_hit": true,
+      "start": 311.334,
+      "end": 320.742
+    },
+    {
+      "kind": "speech",
+      "section": "S04",
+      "speaker": "A",
+      "id": "S04-A-0685528d61f746de-1",
+      "cache_key": "e39643a7c04a57341ec7a0f0a562cca1f681b87f30cfb38593e38a9ba94d9162",
+      "cache_hit": true,
+      "start": 321.042,
+      "end": 334.218
+    },
+    {
+      "kind": "speech",
+      "section": "S04",
+      "speaker": "B",
+      "id": "S04-B-dc015269206cc6c6-1",
+      "cache_key": "e4df95fe78718118a3f2974ccf10797c03616101c1b26a58b9032b3172ec22fa",
+      "cache_hit": true,
+      "start": 334.518,
+      "end": 347.934
+    },
+    {
+      "kind": "speech",
+      "section": "S05",
+      "speaker": "B",
+      "id": "S05-B-4f9464fad2f4f2c1-1",
+      "cache_key": "5a5335f066e18ac270c56476941f77472a9711b5e50ee3ffdfcfaf62d238ff4d",
+      "cache_hit": true,
+      "start": 356.984,
+      "end": 370.568
+    },
+    {
+      "kind": "speech",
+      "section": "S06",
+      "speaker": "A",
+      "id": "S06-A-7f4c183aea4074fe-1",
+      "cache_key": "7d449085fcf500c076a5c8e9beaf4edf4b8e1dc47d3d16a0392a9662698401d8",
+      "cache_hit": true,
+      "start": 377.618,
+      "end": 387.194
+    },
+    {
+      "kind": "speech",
+      "section": "S06",
+      "speaker": "B",
+      "id": "S06-B-4576dcc679663b0d-1",
+      "cache_key": "63a4eafc737494493e0fba7e83a5ad7e54bd5ab619a743fe45188fdc385b1f11",
+      "cache_hit": true,
+      "start": 387.494,
+      "end": 402.662
+    },
+    {
+      "kind": "speech",
+      "section": "S06",
+      "speaker": "A",
+      "id": "S06-A-ab30558adcf06e3f-1",
+      "cache_key": "ef961d6f4a6979b9751d610c5208f8dd16b132c2b29494a5785558227af9325b",
+      "cache_hit": true,
+      "start": 402.962,
+      "end": 414.05
+    },
+    {
+      "kind": "speech",
+      "section": "S06",
+      "speaker": "B",
+      "id": "S06-B-64cf03328b9af18d-1",
+      "cache_key": "647feaec9525f93432961916f9148624aec4607fc9d00d4ad6a8725a9c9cc891",
+      "cache_hit": true,
+      "start": 414.35,
+      "end": 424.886
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "A",
+      "id": "S07-A-916cc03140280d8d-1",
+      "cache_key": "da52594881b323b8bace6c726d2646be63cffc4781ac3496b88af0735c24d500",
+      "cache_hit": true,
+      "start": 425.936,
+      "end": 435.2
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "B",
+      "id": "S07-B-a47208c0570f6878-1",
+      "cache_key": "58384fb4873dd520e7329b0b9a16b09703183128f3d3fb81108a665feadd34d5",
+      "cache_hit": true,
+      "start": 435.5,
+      "end": 448.124
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "A",
+      "id": "S07-A-ce88c9e54c153fb4-1",
+      "cache_key": "7e1ee4fa087c54f38e70415ca25af226af952fca3b24919b2f055c1df4f56b5d",
+      "cache_hit": true,
+      "start": 448.424,
+      "end": 455.192
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "B",
+      "id": "S07-B-755c16d174193585-1",
+      "cache_key": "840bc74a236a01446a2474aeaf18aecb688236c1142a0ec97d32d9029cdf89df",
+      "cache_hit": true,
+      "start": 455.492,
+      "end": 469.076
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "A",
+      "id": "S07-A-81d6ebdca1a5bc26-1",
+      "cache_key": "3e517c6c02b99ac16479cb4601dea3e5f0a3ea05eff2a92d39fdb5c9ecbe36e6",
+      "cache_hit": true,
+      "start": 469.376,
+      "end": 474.56
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "B",
+      "id": "S07-B-8cfe92877f4623b1-1",
+      "cache_key": "0bf51a5a977e01b1efcb779b1e487851740e20f31071cead322699d4ba2b0449",
+      "cache_hit": true,
+      "start": 474.86,
+      "end": 490.028
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "A",
+      "id": "S07-A-58ea2ac43862b0bd-1",
+      "cache_key": "719700583d699f4f8b01d747050a122f9275a435c51bcd8e872764c7d3431406",
+      "cache_hit": true,
+      "start": 490.328,
+      "end": 497.336
+    },
+    {
+      "kind": "speech",
+      "section": "S07",
+      "speaker": "B",
+      "id": "S07-B-9ac222473141a7d6-1",
+      "cache_key": "f5bcefbb8b97de8caefee3300c484f6163447b08a1f6df94c89e37c648bf58c5",
+      "cache_hit": true,
+      "start": 497.636,
+      "end": 512.42
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "B",
+      "id": "S08-B-f1e927ce71195f53-1",
+      "cache_key": "e8ed73d8d813e1026487023648c433179d557fcdcef6bb72f63d7dccbb13ce3d",
+      "cache_hit": true,
+      "start": 513.47,
+      "end": 528.014
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "A",
+      "id": "S08-A-8a11011d2cd262ef-1",
+      "cache_key": "5c5d496c9008a07bfddb4dd70cf4cb57ece75980b8bf50a8476755f13a88765e",
+      "cache_hit": true,
+      "start": 528.314,
+      "end": 539.33
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "B",
+      "id": "S08-B-01b70c187ee45ca5-1",
+      "cache_key": "bdbabfd0e7c6ddc689838bbfdcdc192b87efe45b8c966a35ee5691d82e3c02d8",
+      "cache_hit": true,
+      "start": 539.63,
+      "end": 559.934
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "A",
+      "id": "S08-A-cbdad625485e1007-1",
+      "cache_key": "7bf513dc1feb7a90353ca7b9a28ac921ec1ec46c68107bfe467bb0a14a3e58f9",
+      "cache_hit": true,
+      "start": 560.234,
+      "end": 566.522
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "B",
+      "id": "S08-B-d60cc61df096fdac-1",
+      "cache_key": "9f7b53a2e10e66bb9c4fa69d29b22df9d61a3ab845b6aa654895dba234465152",
+      "cache_hit": true,
+      "start": 566.822,
+      "end": 584.078
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "A",
+      "id": "S08-A-65872c73ccc64392-1",
+      "cache_key": "79f8462045b2f2f693a204cb7e6fa17712fe9540d5c21b5c5d0778a1b94d318d",
+      "cache_hit": true,
+      "start": 584.378,
+      "end": 589.946
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "B",
+      "id": "S08-B-a398c2d8d0c3b92e-1",
+      "cache_key": "3e0a27dbb861fe2af314b7715b08cc6f12866029a9de7fd9eaa11c31305d9e69",
+      "cache_hit": true,
+      "start": 590.246,
+      "end": 608.39
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "A",
+      "id": "S08-A-4cec238bb7e649d3-1",
+      "cache_key": "7c69e6ad592372e78bde549d76be7b813f7c725c8e1d390149104348622dce93",
+      "cache_hit": true,
+      "start": 608.69,
+      "end": 615.794
+    },
+    {
+      "kind": "speech",
+      "section": "S08",
+      "speaker": "B",
+      "id": "S08-B-e808932bb2eb6eac-1",
+      "cache_key": "96a2942f8d9a6bb6896982339473e1ab5c6e23bca8046346154e67ad3c473377",
+      "cache_hit": true,
+      "start": 616.094,
+      "end": 627.902
+    },
+    {
+      "kind": "speech",
+      "section": "S09",
+      "speaker": "B",
+      "id": "S09-B-8e76961969779821-1",
+      "cache_key": "621abb77d89f591d70d91213eff7ce7ab6827a5cc692f006fa04cbfae6ba2b7e",
+      "cache_hit": true,
+      "start": 628.952,
+      "end": 644.84
+    },
+    {
+      "kind": "speech",
+      "section": "S09",
+      "speaker": "A",
+      "id": "S09-A-ea9a45bf37799baa-1",
+      "cache_key": "e1877591021cb8e946b400c175fe0440fff4188ae56aa3ab2db93cfc625f1685",
+      "cache_hit": true,
+      "start": 645.14,
+      "end": 657.188
+    },
+    {
+      "kind": "speech",
+      "section": "S09",
+      "speaker": "B",
+      "id": "S09-B-9134ef058993d47a-1",
+      "cache_key": "7413e85f3462692ef9a0904a4402e9278e18ed0c0f4198c2e644af352e916f11",
+      "cache_hit": true,
+      "start": 657.488,
+      "end": 673.952
+    },
+    {
+      "kind": "speech",
+      "section": "S10",
+      "speaker": "B",
+      "id": "S10-B-e7d52e0505b4e24e-1",
+      "cache_key": "94085e2e28e2c728af374783264df09c7b63e96b6a14feb7e928bf4f8b66b091",
+      "cache_hit": true,
+      "start": 683.002,
+      "end": 697.21
+    },
+    {
+      "kind": "speech",
+      "section": "S11",
+      "speaker": "A",
+      "id": "S11-A-0b66061575c9480a-1",
+      "cache_key": "ae7944bc620063e99078aefaff8aa8212e915e710a1762d0d1f9d62e1917524b",
+      "cache_hit": true,
+      "start": 704.26,
+      "end": 717.268
+    },
+    {
+      "kind": "speech",
+      "section": "S11",
+      "speaker": "B",
+      "id": "S11-B-0d1e7e9df2995770-1",
+      "cache_key": "8c8ed55c4cf56d9947f9e2879c832758bfe35f6a68ef5412c096d1413d98e6e2",
+      "cache_hit": true,
+      "start": 717.568,
+      "end": 730.672
+    },
+    {
+      "kind": "speech",
+      "section": "S11",
+      "speaker": "A",
+      "id": "S11-A-8c265c12ad31e5b0-1",
+      "cache_key": "54e4a3c7e1ccc402e294874ef14c4baf1e76ecf405cb5ec144f4b6614750b744",
+      "cache_hit": true,
+      "start": 730.972,
+      "end": 740.86
+    },
+    {
+      "kind": "speech",
+      "section": "S11",
+      "speaker": "B",
+      "id": "S11-B-b6791dae6c341156-1",
+      "cache_key": "63f2fc9d97c321abdb539006d32220793cd8654416c052e62b1489cf2909bb38",
+      "cache_hit": true,
+      "start": 741.16,
+      "end": 755.224
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "A",
+      "id": "S12-A-055dd2df33c093ab-1",
+      "cache_key": "a73260adbda7451739b5b0f938c8e3c3519fd24c0d480fcbd24c7ed10d36c78b",
+      "cache_hit": true,
+      "start": 756.274,
+      "end": 761.602
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "B",
+      "id": "S12-B-bf36c5f11a1b429e-1",
+      "cache_key": "1605884dab1e22ff8f4b370724183c4988385707c983f2805ef1349d662ccd95",
+      "cache_hit": true,
+      "start": 761.902,
+      "end": 777.31
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "A",
+      "id": "S12-A-104a66990899cab5-1",
+      "cache_key": "849984abc093f1eb559928077be15136aa3ffd09de6c4dfb430c44bc72c66131",
+      "cache_hit": true,
+      "start": 777.61,
+      "end": 785.026
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "B",
+      "id": "S12-B-f030e9f34643b60c-1",
+      "cache_key": "c76078cf6bb0415b935d14a8b855d4f8127cbda123c6aad934aa86d69aafecc7",
+      "cache_hit": true,
+      "start": 785.326,
+      "end": 800.11
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "A",
+      "id": "S12-A-cf1e533e95c810ef-1",
+      "cache_key": "65b96c925a2e46a42b2f3de2141dc6fcbf91a9c6413e4e4e1749c7e65e4dd9b4",
+      "cache_hit": true,
+      "start": 800.41,
+      "end": 807.106
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "B",
+      "id": "S12-B-4a6fcbdedbe12b73-1",
+      "cache_key": "3bd1e09dc6b6ff7916e38b11930f03956f236e6320b5aa5388fdef23dd2a92d6",
+      "cache_hit": true,
+      "start": 807.406,
+      "end": 822.262
+    },
+    {
+      "kind": "speech",
+      "section": "S12",
+      "speaker": "A",
+      "id": "S12-A-97f51f61751d2e52-1",
+      "cache_key": "3a1ceae91df2811028ab7ac628d2a6b7ff7fa8e1ec4dda71c3fba6143d1fd70a",
+      "cache_hit": true,
+      "start": 822.562,
+      "end": 832.858
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "A",
+      "id": "S13-A-0f475f84f7479f43-1",
+      "cache_key": "d1eb22a07386550368d24432a9b25adcd57aaeabd6ba70cdfa3ac9f90d239d3d",
+      "cache_hit": true,
+      "start": 833.908,
+      "end": 842.284
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "B",
+      "id": "S13-B-10a524b91d1e855f-1",
+      "cache_key": "5355fa42a9da806fc4c3ca643295604a638f0bd8021ae7d26897786459536992",
+      "cache_hit": true,
+      "start": 842.584,
+      "end": 856.312
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "A",
+      "id": "S13-A-bb674bd1be66917c-1",
+      "cache_key": "23626be7cfd73ef5d67a8b6e2d5204519b77cd2808d4e17d925f81ad4015ccbc",
+      "cache_hit": true,
+      "start": 856.612,
+      "end": 862.036
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "B",
+      "id": "S13-B-87357ee4fb9773b1-1",
+      "cache_key": "f96c49bce35404e9e58229c41bbfe61e7897473da137effe69bf1795e6252735",
+      "cache_hit": true,
+      "start": 862.336,
+      "end": 877.84
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "A",
+      "id": "S13-A-94e42462edcee22e-1",
+      "cache_key": "8891126c30f4020b9bdad863051012fbccd8f5cc2f2f18dc75017da9d52f4f27",
+      "cache_hit": true,
+      "start": 878.14,
+      "end": 885.964
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "B",
+      "id": "S13-B-5be1dcd01e7c046a-1",
+      "cache_key": "526123753dadaed1a49e0d11f66cec0304f83d502ee975e884d71eba92869e32",
+      "cache_hit": true,
+      "start": 886.264,
+      "end": 899.992
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "A",
+      "id": "S13-A-de868c44ea204d63-1",
+      "cache_key": "8d0168a7fd48a50894479689dbf4dd61269cfba211866d6854ce7a3d02887854",
+      "cache_hit": true,
+      "start": 900.292,
+      "end": 906.436
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "B",
+      "id": "S13-B-cee1b67c74f2dfa6-1",
+      "cache_key": "4cebfa77bf30167a64d107d69e7c4ae9aee8d2afa8067f0fa311a8a73805f85e",
+      "cache_hit": true,
+      "start": 906.736,
+      "end": 922.624
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "A",
+      "id": "S13-A-b6ead7b827b0d2e5-1",
+      "cache_key": "5af1abb2f9a7731f871fed58f6d6bda304a6184eadb9c439d1057918bce8b8cc",
+      "cache_hit": true,
+      "start": 922.924,
+      "end": 931.132
+    },
+    {
+      "kind": "speech",
+      "section": "S13",
+      "speaker": "B",
+      "id": "S13-B-63a539bf7b149e3b-1",
+      "cache_key": "c4034e0901e5a30b00fff55e9a6deef2333687f07ddaa3b962b947d32d74cfbc",
+      "cache_hit": true,
+      "start": 931.432,
+      "end": 945.328
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "A",
+      "id": "S14-A-8c318f5d735fc35b-1",
+      "cache_key": "a3e4c1b6faf5c645eb06f076dab759ed478e57fcfd864f5661c6fe29246bc0f6",
+      "cache_hit": true,
+      "start": 946.378,
+      "end": 955.474
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "B",
+      "id": "S14-B-511eee0872fd5125-1",
+      "cache_key": "d5b1ce597ad7626c400f7ad53d6b9e701a009f133b1b3a9493fe3e989237a553",
+      "cache_hit": true,
+      "start": 955.774,
+      "end": 974.302
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "A",
+      "id": "S14-A-8051774d714d1add-1",
+      "cache_key": "890683cceae0c71cd9f4f0cfc0cadec196439b879bcbe80df0ebef40f0c4a4e3",
+      "cache_hit": true,
+      "start": 974.602,
+      "end": 978.418
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "B",
+      "id": "S14-B-d921c1d514b0902b-1",
+      "cache_key": "3602957a03fae168ec6b05edf78765900400f88c2067dac4807f36cc86e24b64",
+      "cache_hit": true,
+      "start": 978.718,
+      "end": 990.046
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "A",
+      "id": "S14-A-bbbe59aa03c3b547-1",
+      "cache_key": "1545de152a2bc395ab5c3d31fe5d90a4c874334ce851a0f405512cedcc0fad2a",
+      "cache_hit": true,
+      "start": 990.346,
+      "end": 1000.714
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "B",
+      "id": "S14-B-45f8d5f81886763f-1",
+      "cache_key": "fea3b80d015e425d6080311aa153eace4142f130b2bf305defa8cbde4140d8f3",
+      "cache_hit": false,
+      "start": 1001.014,
+      "end": 1017.55
+    },
+    {
+      "kind": "speech",
+      "section": "S14",
+      "speaker": "A",
+      "id": "S14-A-d2c53c98b025295e-1",
+      "cache_key": "45a1bb288bed3d250f195c301c8ac0e0f75eb9e30b7318b19543aaa681398bab",
+      "cache_hit": true,
+      "start": 1017.85,
+      "end": 1029.106
+    },
+    {
+      "kind": "speech",
+      "section": "S15",
+      "speaker": "B",
+      "id": "S15-B-920b1dd1e425ef02-1",
+      "cache_key": "adf724cfc5a204c24b38289b419788256125d13b8cbd414ac53225d50562d682",
+      "cache_hit": false,
+      "start": 1030.156,
+      "end": 1053.484
+    },
+    {
+      "kind": "speech",
+      "section": "S15",
+      "speaker": "A",
+      "id": "S15-A-01eecb74381ca6bd-1",
+      "cache_key": "a886f0f7e90b243e8f6caaf1245ee0b394bd9dec24cda0afc67a974f020371aa",
+      "cache_hit": false,
+      "start": 1053.784,
+      "end": 1066.0
+    },
+    {
+      "kind": "speech",
+      "section": "S15",
+      "speaker": "B",
+      "id": "S15-B-90499d5f5386173e-1",
+      "cache_key": "6c8e03b761d79988f4f08a950ea2adc84c0a3455c5dd87185b7555ae29228d35",
+      "cache_hit": false,
+      "start": 1066.3,
+      "end": 1076.524
+    },
+    {
+      "kind": "speech",
+      "section": "S16",
+      "speaker": "B",
+      "id": "S16-B-36b51b5dc3a34e77-1",
+      "cache_key": "9eb75e5e6fc6a25240119180022983d3088d7700572df82c57d442141200a2c6",
+      "cache_hit": false,
+      "start": 1085.574,
+      "end": 1099.302
+    },
+    {
+      "kind": "speech",
+      "section": "S17",
+      "speaker": "A",
+      "id": "S17-A-66bcb4276c552271-1",
+      "cache_key": "a5f0a9d65e40bf5e63e2786fc25049e08c6d49c0e1b09d5c37b5fce6364575bb",
+      "cache_hit": false,
+      "start": 1106.352,
+      "end": 1113.6
+    },
+    {
+      "kind": "speech",
+      "section": "S17",
+      "speaker": "B",
+      "id": "S17-B-722273f68922b98c-1",
+      "cache_key": "8fd4f61be3d1b358a8066cb78eb4a5e8721b327cb0ba9c4da6bf2f76846955e4",
+      "cache_hit": false,
+      "start": 1113.9,
+      "end": 1132.596
+    },
+    {
+      "kind": "speech",
+      "section": "S17",
+      "speaker": "A",
+      "id": "S17-A-d322bf89101552fc-1",
+      "cache_key": "c677223de94807b17035cccee86514d2200d2e5f7ef3816649878d8bb3a1c73a",
+      "cache_hit": false,
+      "start": 1132.896,
+      "end": 1145.112
+    },
+    {
+      "kind": "speech",
+      "section": "S17",
+      "speaker": "B",
+      "id": "S17-B-fc87102dbe18f578-1",
+      "cache_key": "734f7efb8c8f94d2911541171b78b10d607a100ccf9c4007c1d0605d26d05ccb",
+      "cache_hit": false,
+      "start": 1145.412,
+      "end": 1163.46
+    },
+    {
+      "kind": "speech",
+      "section": "S18",
+      "speaker": "A",
+      "id": "S18-A-98caf459a9ff46e5-1",
+      "cache_key": "0d4b7c8febbb2c554e24a7cd3e2f99156ab125e05a6c7c6ac6f1f6cc4b6e58ec",
+      "cache_hit": false,
+      "start": 1164.51,
+      "end": 1171.686
+    },
+    {
+      "kind": "speech",
+      "section": "S18",
+      "speaker": "B",
+      "id": "S18-B-5c1edcd8b14f6fcf-1",
+      "cache_key": "9d3d4f377b9fde348a14f3521f80f8b05d29141a3cd23de77e9dc3d5df20a597",
+      "cache_hit": false,
+      "start": 1171.986,
+      "end": 1191.882
+    },
+    {
+      "kind": "speech",
+      "section": "S18",
+      "speaker": "A",
+      "id": "S18-A-a3dee406945ab21b-1",
+      "cache_key": "518a047ca7ac153c55b6f5ccfe83a4eec0eb86729c8829898125f630607297d3",
+      "cache_hit": false,
+      "start": 1192.182,
+      "end": 1196.07
+    },
+    {
+      "kind": "speech",
+      "section": "S18",
+      "speaker": "B",
+      "id": "S18-B-b444dbf2c085c120-1",
+      "cache_key": "f41a964992f465fb2e3982ca392dd95494c44d72a7667f94c71b78eae0aa8921",
+      "cache_hit": false,
+      "start": 1196.37,
+      "end": 1216.434
+    },
+    {
+      "kind": "speech",
+      "section": "S18",
+      "speaker": "A",
+      "id": "S18-A-2c761725b5be0f25-1",
+      "cache_key": "9a61a71a508e24954dd45ec2cc030323dc110dd5b61fd4e6422061f1489de52b",
+      "cache_hit": false,
+      "start": 1216.734,
+      "end": 1226.958
+    },
+    {
+      "kind": "speech",
+      "section": "S18",
+      "speaker": "B",
+      "id": "S18-B-9711a145ca9318f6-1",
+      "cache_key": "d8acd0ac6b9bde1b6d61e2d81749429ed0d166426f1691edce9959d39fba4cdc",
+      "cache_hit": false,
+      "start": 1227.258,
+      "end": 1243.074
+    },
+    {
+      "kind": "speech",
+      "section": "S19",
+      "speaker": "A",
+      "id": "S19-A-56b12a4b8e2a070c-1",
+      "cache_key": "571f5cc30fa006e1bc1a3810eb27a4084ed75d1bc80ba9bbc812143c16439cb3",
+      "cache_hit": true,
+      "start": 1244.124,
+      "end": 1251.708
+    },
+    {
+      "kind": "speech",
+      "section": "S19",
+      "speaker": "B",
+      "id": "S19-B-8cdf8f398093caf1-1",
+      "cache_key": "c89949f568c8c4c8869edde525096101ea0af814ae3a48c1fc3f99f4148a5910",
+      "cache_hit": true,
+      "start": 1252.008,
+      "end": 1267.032
+    },
+    {
+      "kind": "speech",
+      "section": "S19",
+      "speaker": "A",
+      "id": "S19-A-9a8a9647bc85cfaf-1",
+      "cache_key": "2c0a254136d5f1c0d26e44f986bf6d1df39e3833e2dac018de13af57781ee43f",
+      "cache_hit": true,
+      "start": 1267.332,
+      "end": 1276.26
+    },
+    {
+      "kind": "speech",
+      "section": "S19",
+      "speaker": "B",
+      "id": "S19-B-8a3f8a31dc07841e-1",
+      "cache_key": "93082fe9a5d1823e063c17a096a11611a234303b0c59de16fb1616a5c1d4662b",
+      "cache_hit": true,
+      "start": 1276.56,
+      "end": 1293.264
+    },
+    {
+      "kind": "speech",
+      "section": "S19",
+      "speaker": "A",
+      "id": "S19-A-f43cecc69854c261-1",
+      "cache_key": "8fcf13e02880704f718cb347ce4fec884dd4652c3c556bcdfe23d1316e4ae3a6",
+      "cache_hit": true,
+      "start": 1293.564,
+      "end": 1303.14
+    },
+    {
+      "kind": "speech",
+      "section": "S19",
+      "speaker": "B",
+      "id": "S19-B-6fa58c283cba1462-1",
+      "cache_key": "98533eb6e23754572e2e3c08e93c2dfc7081cef1e0741267a88176497f308ae3",
+      "cache_hit": true,
+      "start": 1303.44,
+      "end": 1316.856
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "A",
+      "id": "S20-A-00c66f047e4b543e-1",
+      "cache_key": "419ac1d3ce08b8bf81b4aa274f9203ed02049d63e7ffb0ec227090f904803aec",
+      "cache_hit": false,
+      "start": 1317.906,
+      "end": 1325.49
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "B",
+      "id": "S20-B-56b39f550e1e8fe9-1",
+      "cache_key": "de5d72fa51b73be01ea58a0cda0dda8f108b9cc4431409d58a4ab5de9eea7583",
+      "cache_hit": false,
+      "start": 1325.79,
+      "end": 1341.366
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "A",
+      "id": "S20-A-c40a1eb4f0d212e9-1",
+      "cache_key": "cea92406a165c9efb191dfd2847c06fb6ebfece12ab1d45cda42dbfd487462ae",
+      "cache_hit": false,
+      "start": 1341.666,
+      "end": 1348.914
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "B",
+      "id": "S20-B-1d1eeb2afac8e32b-1",
+      "cache_key": "58c535d9a908c1598c386b7aceda0ebaa980cfa3d3556af822efcc90cf94762c",
+      "cache_hit": false,
+      "start": 1349.214,
+      "end": 1368.318
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "A",
+      "id": "S20-A-c64342418e3465d5-1",
+      "cache_key": "e1c84e6f5427e1299fa61269fe92a2184459371387bde864af8d90f51eb95470",
+      "cache_hit": false,
+      "start": 1368.618,
+      "end": 1376.106
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "B",
+      "id": "S20-B-2c0e9aaea6f1d00f-1",
+      "cache_key": "dd0364e7800c02936f331cb72d92a28333f6cb21f654e03b5e694ba34ab22dd3",
+      "cache_hit": false,
+      "start": 1376.406,
+      "end": 1395.582
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "A",
+      "id": "S20-A-0bffc4b89622ae90-1",
+      "cache_key": "e054184e531731b0d5228eea85324ccb3fcfedca4046960cb94df4c0ee6fe481",
+      "cache_hit": false,
+      "start": 1395.882,
+      "end": 1398.186
+    },
+    {
+      "kind": "speech",
+      "section": "S20",
+      "speaker": "B",
+      "id": "S20-B-38b2a8d51e05ca35-1",
+      "cache_key": "55d23abd90ec2aa317edc2658cd8c44a86dda68104753766942e1d543fdfff3b",
+      "cache_hit": false,
+      "start": 1398.486,
+      "end": 1414.782
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "A",
+      "id": "S21-A-e861fe21273ff26b-1",
+      "cache_key": "0ed07b6afcee99bdd880ebe84f07dfced5d46d6249e35450f8f0b242dcf1c961",
+      "cache_hit": false,
+      "start": 1415.832,
+      "end": 1424.76
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "B",
+      "id": "S21-B-fa703d6904ca6b1c-1",
+      "cache_key": "92b665fde041d844c935fda66dc57bcd11b8796c80d8ae18a90d5e8ac3faec49",
+      "cache_hit": false,
+      "start": 1425.06,
+      "end": 1442.148
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "A",
+      "id": "S21-A-af3ebb4996297534-1",
+      "cache_key": "b6627c29b59c1c2d6f0ccea9bbf8a45f9183b5eedb77f72c735deb77c1251593",
+      "cache_hit": false,
+      "start": 1442.448,
+      "end": 1453.632
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "B",
+      "id": "S21-B-d122f7291a6be4e0-1",
+      "cache_key": "9db14baf6d8ee6718afdfc0a5129b3c54ad5050fd3b283b4183885b6ffced9d7",
+      "cache_hit": false,
+      "start": 1453.932,
+      "end": 1468.788
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "A",
+      "id": "S21-A-6a750a39126cdc7b-1",
+      "cache_key": "1c3f476ef15ad5139aeef1205e269db812f49b7815d8a8c67e5262fc1589db97",
+      "cache_hit": false,
+      "start": 1469.088,
+      "end": 1477.632
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "B",
+      "id": "S21-B-4a98bad218dd5dd5-1",
+      "cache_key": "ee79fc0b31e6308513d22cba974007f871daeb4d3cfd4ed9ccb142c0cbc02239",
+      "cache_hit": false,
+      "start": 1477.932,
+      "end": 1491.9
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "A",
+      "id": "S21-A-7da1f4132fb52d84-1",
+      "cache_key": "53dd9ed8d00064875c67f8228e84735674eaf10ac6297d83b96a14d6ff370ead",
+      "cache_hit": false,
+      "start": 1492.2,
+      "end": 1495.536
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "B",
+      "id": "S21-B-fd74ee49a751c170-1",
+      "cache_key": "ef12e8d9f5c88746e7bc7d7f7ddd5ea38ac6e181bb268c2aa2e7ef77cf7545a4",
+      "cache_hit": false,
+      "start": 1495.836,
+      "end": 1514.292
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "A",
+      "id": "S21-A-121fb2695f5b3a66-1",
+      "cache_key": "682c9d0c6aa3947ecd3282ebbafb3a8b07cdbf95f45d01a8dc24a1b9546cf4a1",
+      "cache_hit": false,
+      "start": 1514.592,
+      "end": 1523.928
+    },
+    {
+      "kind": "speech",
+      "section": "S21",
+      "speaker": "B",
+      "id": "S21-B-6839d4fcd951f4d4-1",
+      "cache_key": "7d164a594e05a2e6fb96b0503f0d798a4259a0a4f1e5f7102263c5af94377b26",
+      "cache_hit": false,
+      "start": 1524.228,
+      "end": 1543.092
+    },
+    {
+      "kind": "speech",
+      "section": "S22",
+      "speaker": "A",
+      "id": "S22-A-a2c042e2fcddd155-1",
+      "cache_key": "dbb7ac67e25fcff684a40b86f00d534b41211452245b970ae71ea6af7ec9914d",
+      "cache_hit": false,
+      "start": 1544.142,
+      "end": 1549.878
+    },
+    {
+      "kind": "speech",
+      "section": "S22",
+      "speaker": "B",
+      "id": "S22-B-3efa484dc67b48c7-1",
+      "cache_key": "f384923e57b3106e99301a93d7d8574f1f23e02279d17af695f6d56a95d1d97b",
+      "cache_hit": false,
+      "start": 1550.178,
+      "end": 1567.266
+    },
+    {
+      "kind": "speech",
+      "section": "S22",
+      "speaker": "A",
+      "id": "S22-A-117776e1af03f66c-1",
+      "cache_key": "a188ee4e3f8aaaad670d787e262aa8a035ffbd23432a2c14802b8c69a97e6cd9",
+      "cache_hit": false,
+      "start": 1567.566,
+      "end": 1577.454
+    },
+    {
+      "kind": "speech",
+      "section": "S22",
+      "speaker": "B",
+      "id": "S22-B-09e523e042482488-1",
+      "cache_key": "9d418fda2c3476d7049d92db39ac839e35723deb71b5b1ce58b5a2c6aa5d662d",
+      "cache_hit": false,
+      "start": 1577.754,
+      "end": 1592.778
+    },
+    {
+      "kind": "speech",
+      "section": "S22",
+      "speaker": "A",
+      "id": "S22-A-459c7dda643b40ec-1",
+      "cache_key": "c828b3acd5b2cdea11eaa36ea0c029f6277328b38c0933280f4dc9b284933a11",
+      "cache_hit": false,
+      "start": 1593.078,
+      "end": 1607.526
+    },
+    {
+      "kind": "speech",
+      "section": "S22",
+      "speaker": "B",
+      "id": "S22-B-335812fa1c7ecfc8-1",
+      "cache_key": "b950b130bbd29baf5fbe30693052b8283da88d27c73ec4d2d4d286052f4efd2b",
+      "cache_hit": false,
+      "start": 1607.826,
+      "end": 1623.162
+    },
+    {
+      "kind": "speech",
+      "section": "S23",
+      "speaker": "B",
+      "id": "S23-B-76c88f2cb160135f-1",
+      "cache_key": "0db8f0ddfca10c9b748b236ce2ae09c022d87154a42ba337ea2fec4e193dedb6",
+      "cache_hit": true,
+      "start": 1624.212,
+      "end": 1643.7
+    },
+    {
+      "kind": "speech",
+      "section": "S23",
+      "speaker": "A",
+      "id": "S23-A-4a5126a936783e6c-1",
+      "cache_key": "680be077e6c0f35f1ba6df86cf9cefbabd5529e3adda905ac82d066e15755a60",
+      "cache_hit": true,
+      "start": 1644.0,
+      "end": 1661.736
+    },
+    {
+      "kind": "speech",
+      "section": "S23",
+      "speaker": "B",
+      "id": "S23-B-c306178d3d827694-1",
+      "cache_key": "82742c9159f76a84d770c21e7a8650e7528e4ec52b091f2c87e2711a123b283c",
+      "cache_hit": true,
+      "start": 1662.036,
+      "end": 1674.492
+    },
+    {
+      "kind": "speech",
+      "section": "S24",
+      "speaker": "B",
+      "id": "S24-B-0e62eb9c9ad642d0-1",
+      "cache_key": "842526eb7dc34689c8e10c22e55f6ff653986311d7dcabb65b3e32a2b5e7eb75",
+      "cache_hit": true,
+      "start": 1683.542,
+      "end": 1697.678
+    },
+    {
+      "kind": "speech",
+      "section": "S25",
+      "speaker": "A",
+      "id": "S25-A-9c27494bf9cda2d8-1",
+      "cache_key": "283467f63a4eddb8f9bedf7914bcc0c3be240fc741c2b57878c3743f95805745",
+      "cache_hit": true,
+      "start": 1704.728,
+      "end": 1716.776
+    },
+    {
+      "kind": "speech",
+      "section": "S25",
+      "speaker": "B",
+      "id": "S25-B-7ca3a6494fb5a431-1",
+      "cache_key": "ef893799083dcde4b8940e4b5aa1d9a710d384df4d686c5b77aa9246d9a649f9",
+      "cache_hit": true,
+      "start": 1717.076,
+      "end": 1736.9
+    },
+    {
+      "kind": "speech",
+      "section": "S25",
+      "speaker": "A",
+      "id": "S25-A-01a95b1091ab2c6e-1",
+      "cache_key": "9ea78b690e4d68752630a2326141ad10a11112bafb4ee3693337c3fbd7d151e6",
+      "cache_hit": true,
+      "start": 1737.2,
+      "end": 1753.088
+    },
+    {
+      "kind": "speech",
+      "section": "S25",
+      "speaker": "B",
+      "id": "S25-B-a1e8d5f695c76f1c-1",
+      "cache_key": "3817a88e625a3fb292fb94c3d7e02fc1f7980520911fdcae171610ad80668d0b",
+      "cache_hit": true,
+      "start": 1753.388,
+      "end": 1765.916
+    },
+    {
+      "kind": "speech",
+      "section": "S25",
+      "speaker": "A",
+      "id": "S25-A-3e39caaaa95e9c3e-1",
+      "cache_key": "9f18aee54429437496766c01b2f65f4feb700f2929f19882805765a5d05bc953",
+      "cache_hit": true,
+      "start": 1766.216,
+      "end": 1774.832
+    },
+    {
+      "kind": "speech",
+      "section": "S26",
+      "speaker": "B",
+      "id": "S26-B-75b315fa69817ba7-1",
+      "cache_key": "5840a28734d28e6e1507193d3b3605452e6a85da158bfee33d392cbea4d1845f",
+      "cache_hit": false,
+      "start": 1775.882,
+      "end": 1792.658
+    },
+    {
+      "kind": "speech",
+      "section": "S26",
+      "speaker": "A",
+      "id": "S26-A-ea712e937643c706-1",
+      "cache_key": "6a389aa19a3d868d3cc89679b001506a5c8d5b84f4ae6c4ee860bc0100da3fef",
+      "cache_hit": false,
+      "start": 1792.958,
+      "end": 1808.846
+    },
+    {
+      "kind": "speech",
+      "section": "S26",
+      "speaker": "B",
+      "id": "S26-B-26387f00748948ad-1",
+      "cache_key": "94beefc19d480a94e23b2b19d27ac9f2e1c6767d2e5f093ba14eea1128bf9d63",
+      "cache_hit": false,
+      "start": 1809.146,
+      "end": 1823.45
+    },
+    {
+      "kind": "speech",
+      "section": "S26",
+      "speaker": "A",
+      "id": "S26-A-554279a093ab6cba-1",
+      "cache_key": "eeeae596696f3e5bf2ee9a672f17568a603a3e1a60c6e22ce6e868958afb6ec0",
+      "cache_hit": false,
+      "start": 1823.75,
+      "end": 1831.166
+    }
+  ],
+  "episode": "ep01",
   "sample_only": false,
-  "voice_listening_review": "not performed by a human"
+  "spoken_sha256": "90ae9ee2dd147b0707c6714209fb1bafc4ac80044d735de5d2b05b7e75b43775",
+  "source_script_sha256": "350af816ad5748c4aac83d0f2173e900f2e18c4e419c5a3b426396c0d231f1bc",
+  "source_segments_sha256": "384e7635077cddf0a6d795f4f70c23f0abdb7e1e3e443f51cdfcf148ab6e7244",
+  "config": {
+    "model": "qwen-audio-3.0-tts-plus",
+    "voices": {
+      "A": "longanlufeng",
+      "B": "longanlingxin"
+    },
+    "rate": 0.96,
+    "sample_rate": 24000,
+    "channels": 1,
+    "bitrate_kbps": 96,
+    "turn_gap": 0.3,
+    "section_gap": 0.75,
+    "normalization": "loudnorm=I=-18:TP=-1.5:LRA=11",
+    "pipeline_version": 2
+  },
+  "config_sha256": "3f18b94c991cbe1c34f5d37d3da0a43a6e62aed2c2097a86527c17231302e075",
+  "directory": "audio/ep01/90ae9ee2dd147b07-727c46afd5f6-384e7635077c",
+  "release_status": "technical-preview",
+  "private_render_config_sha256": "727c46afd5f665d6d4678f2178ee344a40be0922588f6e4c730c9634d9ccfd1d",
+  "config_redactions": [
+    "service_identity"
+  ],
+  "human_listening": {
+    "status": "not_tested"
+  },
+  "audio_semantics": {
+    "status": "not_tested"
+  }
 }

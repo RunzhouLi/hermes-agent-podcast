@@ -6,7 +6,7 @@
     <language>zh-CN</language>
     <description>基于 RWTH Aachen Summer 2026 Concepts and Models of Parallel and Data-centric Programming 课程资料编写的中文双人学习播客。独立学习资料，非学校或教师官方节目；AI 合成语音，中文主讲并解释英文术语。</description>
     <copyright>© 2026 Runzhou Li</copyright>
-    <lastBuildDate>Tue, 22 Sep 2026 17:20:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:41:42 GMT</lastBuildDate>
     <generator>Hermes Agent</generator>
     <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -42,16 +42,16 @@
     <item>
       <title>EP01 — 数据在哪里，工作就该怎样分？</title>
       <link>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/#ep01</link>
-      <description>从集群、节点、内存层级与 NUMA 出发，理解共享内存、消息传递、BSP、混合并行、GPU，以及模拟—分析—学习工作流中的数据局部性。 AI 双声线：A 为学习者，B 为讲解者；千问官方 qwen-audio-3.0-tts-plus。 &lt;a href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/episodes/ep01/show-notes.html"&gt;学习附录 / 文稿&lt;/a&gt;</description>
+      <description>technical-preview：技术检查通过；人类听感尚未测试。 &lt;a href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/episodes/ep01/show-notes.html"&gt;学习附录 / 文稿&lt;/a&gt;</description>
       <itunes:summary>从集群、节点、内存层级与 NUMA 出发，理解共享内存、消息传递、BSP、混合并行、GPU，以及模拟—分析—学习工作流中的数据局部性。 AI 双声线：A 为学习者，B 为讲解者；千问官方 qwen-audio-3.0-tts-plus。</itunes:summary>
       <guid isPermaLink="false">pdp-ep01</guid>
       <pubDate>Tue, 22 Sep 2026 13:57:00 GMT</pubDate>
-      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep01.mp3" length="22205996" type="audio/mpeg" />
-      <itunes:duration>00:30:50</itunes:duration>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/audio/ep01-c4ea5cae5a32ccca3c3674d4b50058447bcbd9c004925f56834020f05b671c34.mp3" length="21978764" type="audio/mpeg" />
+      <itunes:duration>00:30:31</itunes:duration>
       <itunes:episode>1</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
-      <podcast:chapters url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep01-chapters.json" type="application/json+chapters" />
+      <podcast:chapters url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep01-c4ea5cae5a32ccca3c3674d4b50058447bcbd9c004925f56834020f05b671c34-75795ef82621697681c6a41fddb36d7f4d70783180a10d5d04ee6d5749ef7435-chapters.json" type="application/json+chapters" />
     </item>
   </channel>
 </rss>

@@ -1,0 +1,109 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "跟着一份温度数据出发"
+    },
+    {
+      "startTime": 70.182,
+      "title": "先把机器画成有边界的地图"
+    },
+    {
+      "startTime": 162.6,
+      "title": "地址相同，路程也可能不同"
+    },
+    {
+      "startTime": 311.334,
+      "title": "换一张机器地图"
+    },
+    {
+      "startTime": 356.984,
+      "title": "第一题提示"
+    },
+    {
+      "startTime": 377.618,
+      "title": "第一题解析"
+    },
+    {
+      "startTime": 425.936,
+      "title": "一格温度在等什么"
+    },
+    {
+      "startTime": 513.47,
+      "title": "分工方式怎样回应依赖"
+    },
+    {
+      "startTime": 628.952,
+      "title": "换一轮数据试试"
+    },
+    {
+      "startTime": 683.002,
+      "title": "第二题提示"
+    },
+    {
+      "startTime": 704.26,
+      "title": "第二题解析"
+    },
+    {
+      "startTime": 756.274,
+      "title": "给加速器记完整的一笔账"
+    },
+    {
+      "startTime": 833.908,
+      "title": "从更新网格转到按地区提问"
+    },
+    {
+      "startTime": 946.378,
+      "title": "同一批数据还要再用一次"
+    },
+    {
+      "startTime": 1030.156,
+      "title": "为一个分析任务选路"
+    },
+    {
+      "startTime": 1085.574,
+      "title": "第三题提示"
+    },
+    {
+      "startTime": 1106.352,
+      "title": "第三题解析"
+    },
+    {
+      "startTime": 1164.51,
+      "title": "模型到底从数据里学什么"
+    },
+    {
+      "startTime": 1244.124,
+      "title": "三个动作，不是一件事"
+    },
+    {
+      "startTime": 1317.906,
+      "title": "为什么预处理也可能偷看答案"
+    },
+    {
+      "startTime": 1415.832,
+      "title": "少走一段路，少了什么代价"
+    },
+    {
+      "startTime": 1544.142,
+      "title": "预测要接在哪一段"
+    },
+    {
+      "startTime": 1624.212,
+      "title": "最后一段数据要不要留下"
+    },
+    {
+      "startTime": 1683.542,
+      "title": "第四题提示"
+    },
+    {
+      "startTime": 1704.728,
+      "title": "第四题解析"
+    },
+    {
+      "startTime": 1775.882,
+      "title": "带着四个问题进入下一讲"
+    }
+  ]
+}
