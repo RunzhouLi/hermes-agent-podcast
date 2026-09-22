@@ -1,0 +1,177 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "多一台机器，该少等哪一段？"
+    },
+    {
+      "startTime": 68.55,
+      "title": "先让两只秒表量同一件事"
+    },
+    {
+      "startTime": 174.828,
+      "title": "练习一：问题"
+    },
+    {
+      "startTime": 211.89,
+      "title": "练习一：作答"
+    },
+    {
+      "startTime": 239.148,
+      "title": "练习一：可选提示"
+    },
+    {
+      "startTime": 260.778,
+      "title": "练习一：解答"
+    },
+    {
+      "startTime": 296.808,
+      "title": "账本中只有一部分能分"
+    },
+    {
+      "startTime": 445.986,
+      "title": "练习二：问题"
+    },
+    {
+      "startTime": 472.656,
+      "title": "练习二：作答"
+    },
+    {
+      "startTime": 494.322,
+      "title": "练习二：可选提示"
+    },
+    {
+      "startTime": 512.352,
+      "title": "练习二：解答"
+    },
+    {
+      "startTime": 541.11,
+      "title": "趋近上限，不等于某台机器兑现上限"
+    },
+    {
+      "startTime": 658.884,
+      "title": "额外等待要另记一笔"
+    },
+    {
+      "startTime": 740.214,
+      "title": "先说实验固定了什么"
+    },
+    {
+      "startTime": 826.716,
+      "title": "练习三：问题"
+    },
+    {
+      "startTime": 855.042,
+      "title": "练习三：作答"
+    },
+    {
+      "startTime": 874.476,
+      "title": "练习三：可选提示"
+    },
+    {
+      "startTime": 888.534,
+      "title": "练习三：解答"
+    },
+    {
+      "startTime": 917.292,
+      "title": "从并行账本还原全部工作"
+    },
+    {
+      "startTime": 997.566,
+      "title": "同一段串行时间，两个比例"
+    },
+    {
+      "startTime": 1074.54,
+      "title": "放大任务也有条件"
+    },
+    {
+      "startTime": 1141.878,
+      "title": "两种效率，先给分子贴标签"
+    },
+    {
+      "startTime": 1243.98,
+      "title": "练习四：问题"
+    },
+    {
+      "startTime": 1280.154,
+      "title": "练习四：作答"
+    },
+    {
+      "startTime": 1300.14,
+      "title": "练习四：可选提示"
+    },
+    {
+      "startTime": 1320.258,
+      "title": "练习四：解答"
+    },
+    {
+      "startTime": 1351.8,
+      "title": "报告一：问题"
+    },
+    {
+      "startTime": 1390.434,
+      "title": "报告一：作答"
+    },
+    {
+      "startTime": 1426.464,
+      "title": "报告一：可选提示"
+    },
+    {
+      "startTime": 1455.738,
+      "title": "报告一：解答"
+    },
+    {
+      "startTime": 1516.704,
+      "title": "报告二·第一步：问题"
+    },
+    {
+      "startTime": 1551.474,
+      "title": "报告二·第一步：作答"
+    },
+    {
+      "startTime": 1568.508,
+      "title": "报告二·第一步：可选提示"
+    },
+    {
+      "startTime": 1579.206,
+      "title": "报告二·第一步：解答"
+    },
+    {
+      "startTime": 1603.164,
+      "title": "报告二·第二步：问题"
+    },
+    {
+      "startTime": 1630.866,
+      "title": "报告二·第二步：作答"
+    },
+    {
+      "startTime": 1652.7,
+      "title": "报告二·第二步：可选提示"
+    },
+    {
+      "startTime": 1675.434,
+      "title": "报告二·第二步：解答"
+    },
+    {
+      "startTime": 1708.38,
+      "title": "报告二·第三步：问题"
+    },
+    {
+      "startTime": 1726.758,
+      "title": "报告二·第三步：作答"
+    },
+    {
+      "startTime": 1746.096,
+      "title": "报告二·第三步：可选提示"
+    },
+    {
+      "startTime": 1762.074,
+      "title": "报告二·第三步：解答"
+    },
+    {
+      "startTime": 1787.928,
+      "title": "合上账本，留下三个检查"
+    }
+  ]
+}
