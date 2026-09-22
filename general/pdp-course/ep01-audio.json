@@ -1,0 +1,24 @@
+{
+  "episode": "ep01",
+  "provider": "alibaba-model-studio",
+  "model": "qwen-audio-3.0-tts-plus",
+  "speaker_voices": {
+    "A": "longanlufeng",
+    "B": "longanlingxin"
+  },
+  "ssml_rate": 0.96,
+  "segments": 125,
+  "cache_hits": 111,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bitrate_kbps": 96,
+  "normalization": "ffmpeg loudnorm I=-18 TP=-1.5 LRA=11",
+  "duration_seconds": 1850.424,
+  "bytes": 22205996,
+  "sha256": "4686b1f915568e7ea99317af1ad18291986649204a4a452b06d23af1ad5c257d",
+  "source_script_sha256": "1d8d8a5b056b15d9480bfb8f937cd012a0cedda4ed1911a36660cb1706041dd5",
+  "source_segments_sha256": "909a8767aec0060bc50acd4be7637bc5dd3df7799d3a8f6b8592c21e2743175a",
+  "full_decode_pass": true,
+  "sample_only": false,
+  "voice_listening_review": "not performed by a human"
+}

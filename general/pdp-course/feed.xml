@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>PDP 课程播客｜并行与以数据为中心的编程</title>
+    <link>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/</link>
+    <language>zh-CN</language>
+    <description>基于 RWTH Aachen Summer 2026 Concepts and Models of Parallel and Data-centric Programming 课程资料编写的中文双人学习播客。独立学习资料，非学校或教师官方节目；AI 合成语音，中文主讲并解释英文术语。</description>
+    <copyright>© 2026 Runzhou Li</copyright>
+    <lastBuildDate>Tue, 22 Sep 2026 13:57:01 GMT</lastBuildDate>
+    <generator>Hermes Agent</generator>
+    <atom:link href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/cover.png</url>
+      <title>PDP 课程播客｜并行与以数据为中心的编程</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/</link>
+    </image>
+    <itunes:type>serial</itunes:type>
+    <itunes:author>Li</itunes:author>
+    <itunes:summary>基于 RWTH Aachen Summer 2026 Concepts and Models of Parallel and Data-centric Programming 课程资料编写的中文双人学习播客。独立学习资料，非学校或教师官方节目；AI 合成语音，中文主讲并解释英文术语。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/cover.png" />
+    <itunes:category text="Education" />
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>Li</itunes:name>
+      <itunes:email>podcast@runzhouli.dev</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>EP02 — 机器更多，为什么不一定更快？</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/#ep02</link>
+      <description>用同一张时间账本推导加速比、效率与 Amdahl，区分强弱扩展，再用 Gustafson 解释放大任务与不同串行比例的分母。 AI 双声线：A 为学习者，B 为讲解者；千问官方 qwen-audio-3.0-tts-plus。</description>
+      <itunes:summary>用同一张时间账本推导加速比、效率与 Amdahl，区分强弱扩展，再用 Gustafson 解释放大任务与不同串行比例的分母。 AI 双声线：A 为学习者，B 为讲解者；千问官方 qwen-audio-3.0-tts-plus。</itunes:summary>
+      <guid isPermaLink="false">pdp-ep02</guid>
+      <pubDate>Tue, 22 Sep 2026 13:57:01 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep02.mp3" length="18527372" type="audio/mpeg" />
+      <itunes:duration>00:25:44</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:chapters url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep02-chapters.json" type="application/json+chapters" />
+    </item>
+    <item>
+      <title>EP01 — 数据在哪里，工作就该怎样分？</title>
+      <link>https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/#ep01</link>
+      <description>从集群、节点、内存层级与 NUMA 出发，理解共享内存、消息传递、BSP、混合并行、GPU，以及模拟—分析—学习工作流中的数据局部性。 AI 双声线：A 为学习者，B 为讲解者；千问官方 qwen-audio-3.0-tts-plus。</description>
+      <itunes:summary>从集群、节点、内存层级与 NUMA 出发，理解共享内存、消息传递、BSP、混合并行、GPU，以及模拟—分析—学习工作流中的数据局部性。 AI 双声线：A 为学习者，B 为讲解者；千问官方 qwen-audio-3.0-tts-plus。</itunes:summary>
+      <guid isPermaLink="false">pdp-ep01</guid>
+      <pubDate>Tue, 22 Sep 2026 13:57:00 GMT</pubDate>
+      <enclosure url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep01.mp3" length="22205996" type="audio/mpeg" />
+      <itunes:duration>00:30:50</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:chapters url="https://runzhouli.github.io/hermes-agent-podcast/general/pdp-course/ep01-chapters.json" type="application/json+chapters" />
+    </item>
+  </channel>
+</rss>
